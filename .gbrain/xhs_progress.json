@@ -2044,7 +2044,7 @@
       "note_id": "69f5b6f7000000001e00c9e1",
       "title": "面试官问：如何设计Agent记忆机制？",
       "author": "AI大模型开发2656",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2057,13 +2057,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2072,7 +2072,7 @@
       "note_id": "69f6e6a2000000002301ec6d",
       "title": "QoderWork实测：一个惊喜、一个遗憾、一句实话",
       "author": "电波曲奇715",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2085,13 +2085,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2100,7 +2100,7 @@
       "note_id": "69f32462000000003501ea90",
       "title": "不会进化的龙虾不是好龙虾！OpenClaw Agent",
       "author": "小龙的AI🦐铺224",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2113,13 +2113,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2128,7 +2128,7 @@
       "note_id": "69f731cf000000001e00da6e",
       "title": "面试官：用哪些指标评估 AI AGENT 的效果？",
       "author": "24小时搬砖的黎同学55",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2141,13 +2141,13 @@
           "slides_processed": 6
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2156,7 +2156,7 @@
       "note_id": "69f728ad00000000360035ba",
       "title": "上帝视角写代码！教你如何无死角监控 AI",
       "author": "denkisan1275",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2169,13 +2169,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2184,7 +2184,7 @@
       "note_id": "69f738470000000023017142",
       "title": "2026年Agent框架横评：御三家vs其他",
       "author": "Forence的AI日记183",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2197,13 +2197,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2212,7 +2212,7 @@
       "note_id": "69f5cd4100000000370341ca",
       "title": "今天，我们正式宣布：CoPaw 开源了！",
       "author": "通义实验室2308",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2225,13 +2225,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2240,7 +2240,7 @@
       "note_id": "699d68d5000000000a02e0b8",
       "title": "解读EvoMap，让Openclaw自我进化的神秘机制",
       "author": "小天fotos332",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2253,13 +2253,13 @@
           "slides_processed": 5
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2268,7 +2268,7 @@
       "note_id": "69f67fe6000000001002d001",
       "title": "LangGraph与Agno热门Agent框架深度实战解析",
       "author": "沐白AI笔记79",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2281,13 +2281,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2296,7 +2296,7 @@
       "note_id": "6808ffe70000000009038823",
       "title": "2025年的 AI Agent 框架有哪些？",
       "author": "烟花老师168",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2309,13 +2309,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2324,7 +2324,7 @@
       "note_id": "69f75287000000000350270f5",
       "title": "AI Agent 记忆系统揭秘",
       "author": "沧海九粟21",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2337,13 +2337,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2352,7 +2352,7 @@
       "note_id": "69f5e0ec00000000350290cb",
       "title": "鹅厂AI大模型面试已过，分享Agent部分真题",
       "author": "樱酱聊AI597",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2365,13 +2365,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2380,7 +2380,7 @@
       "note_id": "69f6a9d80000000023016821",
       "title": "一个人+7个AI🤖全自动做漫剧！",
       "author": "Gee4 未来实验室114",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2393,13 +2393,13 @@
           "slides_processed": 6
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2408,7 +2408,7 @@
       "note_id": "69eb59510000000037035a50",
       "title": "第一期基础框架-我用AI打造自动交易系统",
       "author": "muouaicn60",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2421,13 +2421,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2436,7 +2436,7 @@
       "note_id": "69b88ade000000001a029f10",
       "title": "Openclaw之后的又一款现象级AI软件",
       "author": "AI-Cochat 荷马多61",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2449,13 +2449,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2464,7 +2464,7 @@
       "note_id": "69f72872000000001b0208d0",
       "title": "豆包面试题：如何设计垂直领域的Manus",
       "author": "思敏 in AI157",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2477,13 +2477,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2492,7 +2492,7 @@
       "note_id": "69e71b99000000001b002982",
       "title": "上下文工程：决定Agent能力上限的核心技术",
       "author": "璟礼96",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2505,13 +2505,13 @@
           "slides_processed": 6
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2520,7 +2520,7 @@
       "note_id": "69d85db2000000001a037d23",
       "title": "面了个无经验空窗期的AI Agent女生 真的...",
       "author": "猕hotel141",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2533,13 +2533,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2548,7 +2548,7 @@
       "note_id": "69f4ea5b000000003601dba2",
       "title": "吴恩达｜现在最流行的5种Agent设计模式",
       "author": "猫米咪498",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2561,13 +2561,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2576,7 +2576,7 @@
       "note_id": "69f76b09000000003701ea3f",
       "title": "一条命令，让openclaw指挥一支7人团队",
       "author": "奥森木549",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2589,13 +2589,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2604,7 +2604,7 @@
       "note_id": "69f751da000000003502b48a",
       "title": "2026 Agent harness 之年",
       "author": "ody513",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2617,13 +2617,13 @@
           "slides_processed": 6
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2632,7 +2632,7 @@
       "note_id": "69f758680000000035029cb9",
       "title": "年终盘点：Agent 架构卷了一整年最后都一样",
       "author": "403-error1014",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2645,13 +2645,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2660,7 +2660,7 @@
       "note_id": "69f6bdfd00000000350339c8",
       "title": "Claude Agent Teams带来入门AI的黄金时机",
       "author": "小天fotos106",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2673,13 +2673,13 @@
           "slides_processed": 6
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2688,7 +2688,7 @@
       "note_id": "69f6b21e000000003601ec9f",
       "title": "面了几个程序员转AI Agent方向 真的吃惊...",
       "author": "AI践行者-老颂15",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2701,13 +2701,13 @@
           "slides_processed": 7
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2716,7 +2716,7 @@
       "title": "面试官问RAG策略？说清这三层检索，直接拿分",
       "author": "AI产品果果姐1299",
       "note_id": "69e72ce40000000021011be4",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -2729,13 +2729,13 @@
           "slides_processed": 8
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
