@@ -1,0 +1,3022 @@
+{
+  "board_id": "698f3a82000000002502ef57",
+  "board_name": "AI概念学习",
+  "total_notes": 104,
+  "notes": [
+    {
+      "index": 0,
+      "note_id": "69b88ade000000001a029f10",
+      "title": "Deep Agents — 开箱即用的Agent Harness",
+      "author": "奥森木103",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "note_id": "69d93cd4000000001a025fd5",
+      "title": "叫板闭源巨头！LangChain刚扔了颗核弹",
+      "author": "老陈聊AI205",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "note_id": "69709e43000000001a034262",
+      "title": "《Manus出售前最后的访谈》视频播客完整版",
+      "author": "张小珺682",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "note_id": "69e9df45000000001a035234",
+      "title": "workflow和agent有什么区别",
+      "author": "八荒的AI623",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "note_id": "69f333b9000000003503206b",
+      "title": "5060的显存，竟然被我扩容到了40GB",
+      "author": "华硕ProArt418",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "note_id": "69e95785000000002300755c",
+      "title": "GBrain：AI智能体知识记忆系统",
+      "author": "LLM- insights56",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "note_id": "69e8cb1400000000210383c8",
+      "title": "LLM Wiki 和 GBrain 真正的差别，不是谁检索更强。",
+      "author": "Frank的Agent实验室1122",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "note_id": "69f03d95000000001b022b08",
+      "title": "70套Design.md设计系统规范",
+      "author": "Clip设计夹398",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "note_id": "69f003fc000000002301ed53",
+      "title": "面了个Java转AI Agent方向的半吊子 真的...",
+      "author": "AI践行者聚一26",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "note_id": "69b2aad100000000080317e9",
+      "title": "AI应用开发面试真题之python环境如何管理",
+      "author": "懂王Ai451",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "note_id": "69de3363000000001e00dc24",
+      "title": "清华开源AI看懂K线！准确率超93%",
+      "author": "天梦君38",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "note_id": "69e209a4000000001f001637",
+      "title": "放弃 Hermes，我切到 AutoClaw 了",
+      "author": "阿东玩AI396",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "note_id": "637cc220000000000e0314ab",
+      "title": "3分钟精通windows沙盒Sandbox及自定义配置",
+      "author": "红头发蓝胖子784",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "note_id": "6867b88f000000001c031e53",
+      "title": "Daytona — 安全弹性的 AI 代码运行基础设施",
+      "author": "无糖AI52",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "note_id": "69ecaa6700000000370360e8",
+      "title": "agent 连 sandbox · 只有两种模式",
+      "author": "奥森木340",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "note_id": "69ecf2cd0000000035020e35",
+      "title": "离谱，Qwen3.6 27B生成速度飙到184t/s",
+      "author": "小天fotos866",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "note_id": "69eab884000000001f031002",
+      "title": "当本地模型强如Opus，本地部署就成为了刚需",
+      "author": "Seven Sea152",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "note_id": "69da0550000000001f0007b2",
+      "title": "花点时间学AI, 谷歌Stitch 0- 1完整教程",
+      "author": "瑞哥那2669",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "note_id": "69e3de72000000001d018862",
+      "title": "我把泄露的ClaudeCode源代码做成了桌面端！",
+      "author": "程序员阿江-Relakkes973",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "note_id": "69ce23860000000022000f69",
+      "title": "教你看懂完整AI模型版图，打造超级智能中枢",
+      "author": "小天fotos154",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "note_id": "69d3678f000000001f000f66",
+      "title": "喂饭，4060Ti史诗觉醒，变身超级AI中枢",
+      "author": "小天fotos1140",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "note_id": "69ad811d000000002800b7a1",
+      "title": "面试官问你：“Agent 的长短期记忆，在生产环境里到底怎么落地实战？”",
+      "author": "Fox爱分享854",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "note_id": "698095c80000000022033213",
+      "title": "面试官：Temperature=0为什么输出不同结果",
+      "author": "大模型上岸日记2945",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "note_id": "69e1fa8b0000000023026645",
+      "title": "Agent Skills 终于长出 UI 了！",
+      "author": "Qoder498",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-682ce0cb000000000f0320e7.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 24,
+      "note_id": "69df880f000000001a0346d5",
+      "title": "Anthropic官方下场金融 我看了源码劝你别冲",
+      "author": "小李token不够了78",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 3,
+          "screenshoted_slides": 3,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69beb0b70000000022029b6f.md",
+          "slides_processed": 3
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 25,
+      "note_id": "69dc6e2f000000002302437a",
+      "title": "5个具体案例讲清楚LLM Wiki的优势",
+      "author": "AI算法阿龙5",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "note_id": "69cce981000000001f005a30",
+      "title": "【纯干货】一口气图解AutoResearch自动研究",
+      "author": "JayBee黄1722",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "note_id": "682ce0cb000000000f0320e7",
+      "title": "RPA2.0? Workflow-use自愈式浏览器自动化",
+      "author": "一蛙29",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "note_id": "69beb0b70000000022029b6f",
+      "title": "OpenClaw爆火后，Browser Use CLI才是杀招",
+      "author": "数字拾光者102",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 29,
+      "note_id": "69ca32b3000000001d01b2a8",
+      "title": "接了个法律智能体项目谈谈感受",
+      "author": "好多鱼没有于314",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "note_id": "69cdfcf30000000023020128",
+      "title": "还在发愁数据？快试试这个\"懒人神器\"",
+      "author": "AI产品阿然213",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "note_id": "69d0afb5000000002102fc4a",
+      "title": "👉 AI写代码不稀奇，但别让它自己骗自己",
+      "author": "梦想如是启动的柱子！1155",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 32,
+      "note_id": "69cfabaa000000002202a4c1",
+      "title": "面试翻车！把AI编程说成Vibe Coding",
+      "author": "Ai产品升级录66",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 33,
+      "note_id": "69c9fd730000000023006ee5",
+      "title": "字节跳动开源了一个\"超级AI\"我研究了一整晚",
+      "author": "涛哥AI日记61",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69c3c509000000001a0266bf.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 34,
+      "note_id": "69c141640000000023017ec4",
+      "title": "那些做知识库踩过的坑，我一次讲完",
+      "author": "申老师的AI赋能笔记378",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 35,
+      "note_id": "68c27744000000001d0097a4",
+      "title": "腾讯ima框架开源，1分钟接入微信",
+      "author": "二次螈Ai工具箱415",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 36,
+      "note_id": "697b54b0000000002103d9dc",
+      "title": "🔥清华开源！RAG神器3.0封神了",
+      "author": "AI 他成长100",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 37,
+      "note_id": "69c3c509000000001a0266bf",
+      "title": "33岁，做了四年Ai开发，建议大家不要想太多",
+      "author": "今天用AI了吗20",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 38,
+      "note_id": "6829d1270000000021006158",
+      "title": "RAGFlow中RAPTOR如何影响检索",
+      "author": "马诚9",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 39,
+      "note_id": "67072e1c000000001a0231c6",
+      "title": "Raptor的主要做法",
+      "author": "利根人18",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshoted_slides": 6,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69b82e5c000000002200c6a5.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 40,
+      "note_id": "685030ee000000002002972d",
+      "title": "RAG是什么？RAGFlow工程优化策略拆解",
+      "author": "玩AI的陈一一38",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69bd0b2d0000000022026b96.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 41,
+      "note_id": "69533564000000001e026b19",
+      "title": "RAG 构建，学这四个神级项目就够了",
+      "author": "夜半AI616",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 42,
+      "note_id": "692b1704000000001f00aa4e",
+      "title": "Prompt新手技巧7：少样本提示",
+      "author": "溪树知识2",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshoted_slides": 6,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-67f06ae2000000001d01bf88.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 43,
+      "note_id": "69b82e5c000000002200c6a5",
+      "title": "吴恩达提示词工程prompt engineering笔记",
+      "author": "ai荒岛求生记106",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-681f895f0000000012001a76.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 44,
+      "note_id": "69bd0b2d0000000022026b96",
+      "title": "仅有2500万个参数，超小语言模型库！",
+      "author": "AI小蔡狗4115",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69bc5319000000001f003a36.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 45,
+      "note_id": "69bebaaa000000001e00cc40",
+      "title": "你以为在造Agent，其实你在造牢笼",
+      "author": "程序员不鸭357",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      },
+      "fail_reason": "笔记不在当前视图"
+    },
+    {
+      "index": 46,
+      "note_id": "67f06ae2000000001d01bf88",
+      "title": "❌盲目乱考，✔️国内认可的九大AI认证证书",
+      "author": "momo33",
+      "status": "done",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      },
+      "fail_reason": "笔记不在当前视图",
+      "processed_at": "2026-05-03T03:29:22.018019"
+    },
+    {
+      "index": 47,
+      "note_id": "681f895f0000000012001a76",
+      "title": "18个免费的AI技能证书",
+      "author": "蓝胖和幂幂683",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 2,
+          "screenshoted_slides": 2,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-682fcff3000000002100f477.md",
+          "slides_processed": 2
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 48,
+      "note_id": "69bc5319000000001f003a36",
+      "title": "用Agent的方式探索AI Roleplay",
+      "author": "幻海127",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 4,
+          "screenshoted_slides": 4,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-6942489e000000001e008858.md",
+          "slides_processed": 4
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 49,
+      "note_id": "69bc9235000000001f0022e5",
+      "title": "8G显存跑14G大模型！Greenboost实测",
+      "author": "35岁技术人的创业随笔74",
+      "status": "done",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      },
+      "processed_at": "2026-05-03T03:30:53.095807"
+    },
+    {
+      "index": 50,
+      "note_id": "69bc10530000000022024996",
+      "title": "OpenCLI补齐了我对Agent基建最后一块拼图",
+      "author": "大齐AI实验室235",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 51,
+      "note_id": "682fcff3000000002100f477",
+      "title": "字节这个开源意味着pdf文本提取已经成熟了",
+      "author": "程序员笔记465",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 3,
+          "screenshoted_slides": 3,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-684745e1000000002300d22c.md",
+          "slides_processed": 3
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 52,
+      "note_id": "6942489e000000001e008858",
+      "title": "开源AI智能分析PDF文档的布局结构！",
+      "author": "AI-GitHub15",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 2,
+          "screenshoted_slides": 2,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69aed077000000002602eda2.md",
+          "slides_processed": 2
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 53,
+      "note_id": "69a40b9b0000000028023787",
+      "title": "超有趣的开源项目：AI 协作的像素办公室",
+      "author": "Whiplasher119",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-6982b870000000002801d3d9.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 54,
+      "note_id": "67fdb8aa000000001b026b78",
+      "title": "AI+Agent+RPA自动化？",
+      "author": "Brady19",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 55,
+      "note_id": "684745e1000000002300d22c",
+      "title": "我的第一个影刀RPA自动化工具居然被吐槽了",
+      "author": "程序猿菜菜79",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshoted_slides": 1,
+          "screenshot_dir": "d:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69b50b92000000001a02e4ef.md",
+          "slides_processed": 1
+        },
+        "phase4_vision": {
+          "status": "completed",
+          "vision_desc_added": false
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed",
+          "verified": true
+        }
+      }
+    },
+    {
+      "index": 56,
+      "note_id": "69aed077000000002602eda2",
+      "title": "给龙虾提供眼睛和手，不仅仅只是操作浏览器",
+      "author": "👀👀74",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 57,
+      "note_id": "6982b870000000002801d3d9",
+      "title": "面了个新人连Agent如何进行冷启动都不知道",
+      "author": "Oil145",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 58,
+      "note_id": "69800f370000000021029592",
+      "title": "还得是腾讯，Claude Code迎来最强中国对手",
+      "author": "袋鼠帝80",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 59,
+      "note_id": "69b50b92000000001a02e4ef",
+      "title": "面试了个AI产品女生连prompt都答不上。",
+      "author": "badada1586",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 60,
+      "note_id": "69b145c7000000002602f03d",
+      "title": "面试官:Agent意图识别如何做到95%准确率?",
+      "author": "红太狼.308",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      },
+      "fail_reason": "笔记内容未加载",
+      "processed_at": "2026-05-03T12:52:10.313601"
+    },
+    {
+      "index": 61,
+      "note_id": "69b3e4a5000000001f000e4d",
+      "title": "半年面了100+ Agent开发候选人，来统一回复",
+      "author": "奉天1681",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 62,
+      "note_id": "69b36373000000000800c4b4",
+      "title": "美的AI Agent面经：两轮技术面直击RAG与Lan",
+      "author": "程序员峰哥125",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 63,
+      "note_id": "69b3fd7f000000001a025816",
+      "title": "OpenClaw系列 之 开源工具 agency-agents",
+      "author": "哥舒夜带刀20269",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 64,
+      "note_id": "69aa1ad2000000001a025c3b",
+      "title": "The Agency 核心架构全景图",
+      "author": "赛德瑞克2",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 65,
+      "note_id": "69ae974f000000000e03e948",
+      "title": "ltx2.3最强开源视频生成模型",
+      "author": "有趣的80后程序员30",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 66,
+      "note_id": "6969004b000000000903afda",
+      "title": "🔥LTX-2 GGUF量化版工作流：8G显存流畅运行",
+      "author": "电磁波Studio59",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 67,
+      "note_id": "69aae346000000000d0097ca",
+      "title": "你没看错！AI生成的视频可以在时间线剪辑了",
+      "author": "优设AIGC97",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 68,
+      "note_id": "69a6a9d300000000280086e3",
+      "title": "提示词VS上下文工程",
+      "author": "AI大模型学习849",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 69,
+      "note_id": "69aa755f000000001a027089",
+      "title": "别让一个AI干所有活!小龙虾多agent配置教程",
+      "author": "罐头的AI笔记4709",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 70,
+      "note_id": "698c52a7000000000b0081d4",
+      "title": "PixVerse R1大更新！能玩还能改剧情？",
+      "author": "瑞恩聊AI171",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 71,
+      "note_id": "69a222d9000000001a0212e5",
+      "title": "写Prompt的时代过去了",
+      "author": "Ne0在硅谷3744",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 0,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 72,
+      "note_id": "6983e7a2000000000b011966",
+      "title": "除了Langsmith，我们还有langfuse",
+      "author": "五非是能工智人16",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 73,
+      "note_id": "69985fe4000000000c037f18",
+      "title": "langfuse可监控大模型的输入、输出、latency（响应时间）、token",
+      "author": "HHH（开发学习版）17",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 1,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 74,
+      "note_id": "68be2b0d000000001d013a8e",
+      "title": "LLM追踪：开源方案告别锁定 #LangCha",
+      "author": "北三陆的猫2",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 24,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 75,
+      "note_id": "69463a53000000001e014df9",
+      "title": "每天半小时 AI 知识｜LangFusePrompt",
+      "author": "AI酋长Andy78",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 24,
+          "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 76,
+      "note_id": "68b3b788000000001d025d7b",
+      "title": "生产级dify",
+      "author": "雷哥AI138",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 77,
+      "note_id": "699a8e8b000000000b00a3b8",
+      "title": "别再微调了，99%的项目不适合做微调",
+      "author": "我是Luka7077",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 78,
+      "note_id": "69a7bfeb000000001a035034",
+      "title": "养虾人的福音！Agent可零改造接入RL训练~",
+      "author": "刘聪NLP625",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "pending"
+        },
+        "phase3_ocr": {
+          "status": "pending"
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 79,
+      "note_id": "697f4194000000002202108c",
+      "title": "🛠️硬核拆解：AI浏览器自动化谁最强？",
+      "author": "Gee4 未来实验室17",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed"
+        },
+        "phase3_ocr": {
+          "status": "completed"
+        },
+        "phase4_vision": {
+          "status": "completed"
+        },
+        "phase5_import": {
+          "status": "completed"
+        },
+        "phase6_verify": {
+          "status": "completed"
+        }
+      }
+    },
+    {
+      "index": 80,
+      "note_id": "69f5b6f7000000001e00c9e1",
+      "title": "面试官问：如何设计Agent记忆机制？",
+      "author": "AI大模型开发2656",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f5b6f7000000001e00c9e1.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 81,
+      "note_id": "69f6e6a2000000002301ec6d",
+      "title": "QoderWork实测：一个惊喜、一个遗憾、一句实话",
+      "author": "电波曲奇715",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f6e6a2000000002301ec6d.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 82,
+      "note_id": "69f32462000000003501ea90",
+      "title": "不会进化的龙虾不是好龙虾！OpenClaw Agent",
+      "author": "小龙的AI🦐铺224",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f32462000000003501ea90.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 83,
+      "note_id": "69f731cf000000001e00da6e",
+      "title": "面试官：用哪些指标评估 AI AGENT 的效果？",
+      "author": "24小时搬砖的黎同学55",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f731cf000000001e00da6e.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 84,
+      "note_id": "69f728ad00000000360035ba",
+      "title": "上帝视角写代码！教你如何无死角监控 AI",
+      "author": "denkisan1275",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f728ad00000000360035ba.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 85,
+      "note_id": "69f738470000000023017142",
+      "title": "2026年Agent框架横评：御三家vs其他",
+      "author": "Forence的AI日记183",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f738470000000023017142.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 86,
+      "note_id": "69f5cd4100000000370341ca",
+      "title": "今天，我们正式宣布：CoPaw 开源了！",
+      "author": "通义实验室2308",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f5cd4100000000370341ca.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 87,
+      "note_id": "699d68d5000000000a02e0b8",
+      "title": "解读EvoMap，让Openclaw自我进化的神秘机制",
+      "author": "小天fotos332",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 5,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-699d68d5000000000a02e0b8.md",
+          "slides_processed": 5
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 88,
+      "note_id": "69f67fe6000000001002d001",
+      "title": "LangGraph与Agno热门Agent框架深度实战解析",
+      "author": "沐白AI笔记79",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f67fe6000000001002d001.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 89,
+      "note_id": "6808ffe70000000009038823",
+      "title": "2025年的 AI Agent 框架有哪些？",
+      "author": "烟花老师168",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-6808ffe70000000009038823.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 90,
+      "note_id": "69f75287000000000350270f5",
+      "title": "AI Agent 记忆系统揭秘",
+      "author": "沧海九粟21",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f75287000000000350270f5.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 91,
+      "note_id": "69f5e0ec00000000350290cb",
+      "title": "鹅厂AI大模型面试已过，分享Agent部分真题",
+      "author": "樱酱聊AI597",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f5e0ec00000000350290cb.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 92,
+      "note_id": "69f6a9d80000000023016821",
+      "title": "一个人+7个AI🤖全自动做漫剧！",
+      "author": "Gee4 未来实验室114",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f6a9d80000000023016821.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 93,
+      "note_id": "69eb59510000000037035a50",
+      "title": "第一期基础框架-我用AI打造自动交易系统",
+      "author": "muouaicn60",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69eb59510000000037035a50.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 94,
+      "note_id": "69b88ade000000001a029f10",
+      "title": "Openclaw之后的又一款现象级AI软件",
+      "author": "AI-Cochat 荷马多61",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69b88ade000000001a029f10.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 95,
+      "note_id": "69f72872000000001b0208d0",
+      "title": "豆包面试题：如何设计垂直领域的Manus",
+      "author": "思敏 in AI157",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f72872000000001b0208d0.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 96,
+      "note_id": "69e71b99000000001b002982",
+      "title": "上下文工程：决定Agent能力上限的核心技术",
+      "author": "璟礼96",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69e71b99000000001b002982.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 97,
+      "note_id": "69d85db2000000001a037d23",
+      "title": "面了个无经验空窗期的AI Agent女生 真的...",
+      "author": "猕hotel141",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69d85db2000000001a037d23.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 98,
+      "note_id": "69f4ea5b000000003601dba2",
+      "title": "吴恩达｜现在最流行的5种Agent设计模式",
+      "author": "猫米咪498",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f4ea5b000000003601dba2.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 99,
+      "note_id": "69f76b09000000003701ea3f",
+      "title": "一条命令，让openclaw指挥一支7人团队",
+      "author": "奥森木549",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f76b09000000003701ea3f.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 100,
+      "note_id": "69f751da000000003502b48a",
+      "title": "2026 Agent harness 之年",
+      "author": "ody513",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f751da000000003502b48a.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 101,
+      "note_id": "69f758680000000035029cb9",
+      "title": "年终盘点：Agent 架构卷了一整年最后都一样",
+      "author": "403-error1014",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f758680000000035029cb9.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 102,
+      "note_id": "69f6bdfd00000000350339c8",
+      "title": "Claude Agent Teams带来入门AI的黄金时机",
+      "author": "小天fotos106",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 6,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f6bdfd00000000350339c8.md",
+          "slides_processed": 6
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 103,
+      "note_id": "69f6b21e000000003601ec9f",
+      "title": "面了几个程序员转AI Agent方向 真的吃惊...",
+      "author": "AI践行者-老颂15",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f6b21e000000003601ec9f.md",
+          "slides_processed": 7
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 104,
+      "title": "面试官问RAG策略？说清这三层检索，直接拿分",
+      "author": "AI产品果果姐1299",
+      "note_id": "69e72ce40000000021011be4",
+      "status": "processing",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69e72ce40000000021011be4.md",
+          "slides_processed": 8
+        },
+        "phase4_vision": {
+          "status": "pending"
+        },
+        "phase5_import": {
+          "status": "pending"
+        },
+        "phase6_verify": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "index": 105,
+      "title": "面试官问：单 Agent 已经不够用了？为什么",
+      "author": "大模型算法岗秋招指南11",
+      "note_id": "6980bfca000000002103271a",
+      "status": "pending",
+      "phases": {}
+    },
+    {
+      "index": 106,
+      "title": "面试官问：为什么很多人做不出企业级 Agent",
+      "author": "大模型算法岗秋招指南2",
+      "note_id": "69830476000000002200aa1c",
+      "status": "pending",
+      "phases": {}
+    },
+    {
+      "index": 107,
+      "title": "面试官：Agent中的意图识别你会怎么做？",
+      "author": "小夏聊AGI94",
+      "note_id": "6989c29f000000001a032d7b",
+      "status": "pending",
+      "phases": {}
+    }
+  ],
+  "pending_notes": [
+    {
+      "index": 14,
+      "note_id": "69e3de72000000001d018862",
+      "status": "pending"
+    },
+    {
+      "index": 34,
+      "note_id": "6829d1270000000021006158",
+      "status": "pending"
+    },
+    {
+      "index": 41,
+      "note_id": "69bebaaa000000001e00cc40",
+      "status": "pending"
+    },
+    {
+      "index": 45,
+      "note_id": "69bc9235000000001f0022e5",
+      "status": "pending"
+    },
+    {
+      "index": 46,
+      "note_id": "69bc10530000000022024996",
+      "status": "pending"
+    },
+    {
+      "index": 49,
+      "note_id": "69a40b9b0000000028023787",
+      "status": "pending"
+    },
+    {
+      "index": 60,
+      "note_id": "69aa1ad2000000001a025c3b",
+      "status": "pending"
+    },
+    {
+      "index": 61,
+      "note_id": "69ae974f000000000e03e948",
+      "status": "pending"
+    },
+    {
+      "index": 62,
+      "note_id": "6969004b000000000903afda",
+      "status": "pending"
+    },
+    {
+      "index": 63,
+      "note_id": "69aae346000000000d0097ca",
+      "status": "pending"
+    },
+    {
+      "index": 64,
+      "note_id": "69a6a9d300000000280086e3",
+      "status": "pending"
+    },
+    {
+      "index": 65,
+      "note_id": "69aa755f000000001a027089",
+      "status": "pending"
+    },
+    {
+      "index": 66,
+      "note_id": "698c52a7000000000b0081d4",
+      "status": "pending"
+    },
+    {
+      "index": 67,
+      "note_id": "69a222d9000000001a0212e5",
+      "status": "pending"
+    },
+    {
+      "index": 68,
+      "note_id": "6983e7a2000000000b011966",
+      "status": "pending"
+    },
+    {
+      "index": 69,
+      "note_id": "69985fe4000000000c037f18",
+      "status": "pending"
+    },
+    {
+      "index": 70,
+      "note_id": "68be2b0d000000001d013a8e",
+      "status": "pending"
+    },
+    {
+      "index": 71,
+      "note_id": "69463a53000000001e014df9",
+      "status": "pending"
+    },
+    {
+      "index": 72,
+      "note_id": "68b3b788000000001d025d7b",
+      "status": "pending"
+    },
+    {
+      "index": 73,
+      "note_id": "699a8e8b000000000b00a3b8",
+      "status": "pending"
+    },
+    {
+      "index": 74,
+      "note_id": "69a7bfeb000000001a035034",
+      "status": "pending"
+    },
+    {
+      "index": 75,
+      "note_id": "697f4194000000002202108c",
+      "status": "pending"
+    },
+    {
+      "index": 76,
+      "note_id": "69a55587000000001b015dcd",
+      "status": "pending"
+    },
+    {
+      "index": 77,
+      "note_id": "69a56664000000001a0374cb",
+      "status": "pending"
+    },
+    {
+      "index": 78,
+      "note_id": "69a52c660000000022031d9b",
+      "status": "pending"
+    },
+    {
+      "index": 79,
+      "note_id": "6965a84a000000000b01363f",
+      "status": "pending"
+    },
+    {
+      "index": 80,
+      "note_id": "6990672b000000000e00da6f",
+      "status": "pending"
+    },
+    {
+      "index": 81,
+      "note_id": "6995ed22000000001a030529",
+      "status": "pending"
+    },
+    {
+      "index": 82,
+      "note_id": "69a2cf09000000001d027a90",
+      "status": "pending"
+    },
+    {
+      "index": 83,
+      "note_id": "699d68d5000000000a02e0b8",
+      "status": "pending"
+    },
+    {
+      "index": 84,
+      "note_id": "69397ab3000000001b02707d",
+      "status": "pending"
+    },
+    {
+      "index": 85,
+      "note_id": "6808ffe70000000009038823",
+      "status": "pending"
+    },
+    {
+      "index": 86,
+      "note_id": "6999b64a000000000903b3a4",
+      "status": "pending"
+    },
+    {
+      "index": 87,
+      "note_id": "689e187c000000001c01264f",
+      "status": "pending"
+    },
+    {
+      "index": 88,
+      "note_id": "69910de2000000001503869a",
+      "status": "pending"
+    },
+    {
+      "index": 89,
+      "note_id": "682d5b5c000000000f03133d",
+      "status": "pending"
+    },
+    {
+      "index": 90,
+      "note_id": "6997a8440000000028008b5b",
+      "status": "pending"
+    },
+    {
+      "index": 91,
+      "note_id": "69833f640000000028022c0b",
+      "status": "pending"
+    },
+    {
+      "index": 92,
+      "note_id": "699048ae000000001d0120aa",
+      "status": "pending"
+    },
+    {
+      "index": 93,
+      "note_id": "697db7d2000000000d00a3b9",
+      "status": "pending"
+    },
+    {
+      "index": 94,
+      "note_id": "68f74e330000000007036835",
+      "status": "pending"
+    },
+    {
+      "index": 95,
+      "note_id": "698a77f3000000001502384f",
+      "status": "pending"
+    },
+    {
+      "index": 96,
+      "note_id": "698433ae0000000021033f1a",
+      "status": "pending"
+    },
+    {
+      "index": 97,
+      "note_id": "6992c596000000001b01da68",
+      "status": "pending"
+    },
+    {
+      "index": 98,
+      "note_id": "698aea5f000000000a02c4e8",
+      "status": "pending"
+    },
+    {
+      "index": 99,
+      "note_id": "698aeb0e0000000028023d63",
+      "status": "pending"
+    },
+    {
+      "index": 100,
+      "note_id": "698593a2000000000903839b",
+      "status": "pending"
+    },
+    {
+      "index": 101,
+      "note_id": "6980bfca000000002103271a",
+      "status": "pending"
+    },
+    {
+      "index": 102,
+      "note_id": "69830476000000002200aa1c",
+      "status": "pending"
+    },
+    {
+      "index": 103,
+      "note_id": "6989c29f000000001a032d7b",
+      "status": "pending"
+    }
+  ],
+  "last_updated": "2026-05-04 00:50:49",
+  "chrome_pid": null,
+  "cdp_port": 9223
+}
