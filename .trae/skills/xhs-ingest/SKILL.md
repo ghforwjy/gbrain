@@ -1,6 +1,6 @@
 ---
 name: xhs-ingest
-version: 14.0.0
+version: 14.1.0
 description: |
   将小红书收藏夹中的图文笔记导入 GBrain。
   核心方案：通过 playwright-cli 控制浏览器，复用登录态，避免风控。
@@ -31,7 +31,7 @@ writes_to:
   - sources/xhs/images/
 ---
 
-# 小红书收藏导入 Skill v13 - 极简版
+# 小红书收藏导入 Skill v14 - 极简版
 
 ## Agent操作流程（只看这一节就够了）
 
@@ -162,6 +162,15 @@ playwright-cli state-save d:\mycode\gbrain\xhs_auth.json
 | 直接访问笔记URL | IP被封 | 必须从收藏夹或搜索点击卡片进入弹框 |
 | 笔记显示"暂时无法浏览" | 可能被风控 | 跳过该笔记，记录链接 |
 | 弹窗未打开 | 截图失败 | 检查浏览器是否可见，重新运行auto/search |
+
+---
+
+## 参考文档
+
+| 文档 | 说明 |
+|-----|------|
+| [reference/DESIGN.md](./reference/DESIGN.md) | 整体架构设计 |
+| [reference/ANTI_DETECTION.md](./reference/ANTI_DETECTION.md) | 防风控改造详解（2026-05-04） |
 
 ---
 

@@ -17,6 +17,7 @@ import random
 import re
 import sys
 import io
+import base64
 from pathlib import Path
 
 # 修复Windows控制台中文显示
@@ -287,19 +288,37 @@ def open_browser(url: str = "", headed: bool = True, persistent: bool = True) ->
         url: 导航URL
         headed: 是否使用有头模式
         persistent: 是否使用持久化会话（保持浏览器打开）
+    
+    反检测优化:
+    - 使用 --browser=chrome 启动用户安装的Chrome（而非Playwright自带Chromium）
+      避免Chrome for Testing的UA/WebGL/Canvas/TLS指纹异常
+    - 使用 --persistent 保持用户配置文件（插件/字体/登录态）
     """
     cmd = f"open {url}"
+    cmd += " --browser=chrome"
     if not headed:
         cmd += " --headless"
     if persistent:
         cmd += " --persistent"
     result = run_cli(cmd, timeout=30)
     if result["success"]:
-        log(f"[OK] 浏览器已打开: {url or 'about:blank'}")
+        log(f"[OK] 浏览器已打开(Chrome): {url or 'about:blank'}")
         return True
     else:
         log(f"[FAIL] 打开浏览器失败: {result['stderr'][:100]}")
-        return False
+        log("[INFO] 尝试回退到默认Chromium...")
+        cmd_fallback = f"open {url}"
+        if not headed:
+            cmd_fallback += " --headless"
+        if persistent:
+            cmd_fallback += " --persistent"
+        result2 = run_cli(cmd_fallback, timeout=30)
+        if result2["success"]:
+            log(f"[OK] 浏览器已打开(Chromium回退): {url or 'about:blank'}")
+            return True
+        else:
+            log(f"[FAIL] 回退也失败: {result2['stderr'][:100]}")
+            return False
 
 
 def attach_browser() -> bool:
@@ -339,11 +358,17 @@ def close_browser() -> bool:
 
 
 def goto(url: str) -> bool:
-    """导航到指定URL"""
+    """导航到指定URL
+    
+    导航后自动重新注入反检测脚本（页面刷新后之前的注入会失效）
+    """
     log(f"导航到: {url}")
     result = run_cli(f'goto "{url}"', timeout=30)
     if result["success"]:
         log("[OK] 导航成功")
+        # 页面导航后重新注入反检测脚本
+        time.sleep(1)
+        inject_anti_detection()
         return True
     else:
         log(f"[FAIL] 导航失败: {result['stderr'][:100]}")
@@ -388,64 +413,97 @@ def resize(w: int, h: int) -> bool:
     return result["success"]
 
 
+_last_mouse_pos = None
+
 def mousemove(x: int, y: int) -> bool:
     """移动鼠标到指定位置，模拟人类鼠标轨迹
     
     改进:
-    - 不直线移动，添加贝塞尔曲线轨迹
-    - 移动速度随机
-    - 中途可能有犹豫/停顿
+    - 从上次鼠标位置开始移动（而非目标附近随机偏移）
+    - 使用加速-减速物理模型（Fitts' Law）
+    - 贝塞尔曲线轨迹更平滑
+    - 移动速度与距离成正比（远距离快，近距离慢）
+    - 到达目标附近时微调定位
     """
-    # 获取当前鼠标位置（如果可以）
-    current_pos = None
-    try:
-        # 尝试从 eval_js 获取当前位置
-        result = run_cli("eval document.body.scrollWidth", timeout=2)
-    except:
-        pass
+    global _last_mouse_pos
+    
+    # 起始点：从上次位置开始，或从页面随机位置
+    if _last_mouse_pos:
+        start_x, start_y = _last_mouse_pos
+    else:
+        start_x = random.randint(100, 800)
+        start_y = random.randint(100, 600)
     
     # 计算移动距离
-    # 移动速度分段：开始慢，后面快
-    # 使用贝塞尔曲线模拟人类移动
+    dx = x - start_x
+    dy = y - start_y
+    distance = max(1, (dx**2 + dy**2) ** 0.5)
+    
+    # 根据 Fitts' Law：移动步数与距离成正比
+    # 近距离（<200px）: 8-12步，远距离（>500px）: 15-25步
+    if distance < 200:
+        steps = random.randint(8, 12)
+    elif distance < 500:
+        steps = random.randint(12, 18)
+    else:
+        steps = random.randint(18, 25)
+    
+    # 贝塞尔曲线控制点
+    # 控制点1：在起点和终点之间，偏移形成弧线
+    mid_x = (start_x + x) / 2
+    mid_y = (start_y + y) / 2
+    # 控制点偏移量与距离成正比，但不超过距离的30%
+    max_offset = min(distance * 0.3, 150)
+    cp1_x = mid_x + random.uniform(-max_offset, max_offset)
+    cp1_y = mid_y + random.uniform(-max_offset, max_offset)
+    cp2_x = mid_x + random.uniform(-max_offset * 0.5, max_offset * 0.5)
+    cp2_y = mid_y + random.uniform(-max_offset * 0.5, max_offset * 0.5)
+    
     def bezier_point(t, p0, p1, p2, p3):
-        """三次贝塞尔曲线"""
         return (1-t)**3 * p0 + 3*(1-t)**2 * t * p1 + 3*(1-t) * t**2 * p2 + t**3 * p3
     
-    # 起始点在目标点附近随机偏移（模拟从某处开始）
-    start_x = x + random.randint(-100, 100)
-    start_y = y + random.randint(-100, 100)
-    
-    # 控制点（添加随机偏移形成曲线）
-    cp1_x = x + random.randint(-200, 200)
-    cp1_y = start_y + random.randint(-150, 150)
-    cp2_x = x + random.randint(-150, 150)
-    cp2_y = y + random.randint(-100, 100)
-    
-    # 分10步移动，每步之间有随机延迟
-    steps = 10
+    # 分步移动，使用加速-减速模型
     for i in range(steps):
-        t = i / steps
-        # 添加一点随机扰动
+        # t 从 0 到 1，但使用 ease-in-out 曲线
+        # 前半段加速，后半段减速
+        linear_t = i / steps
+        # ease-in-out: slow start, fast middle, slow end
+        if linear_t < 0.5:
+            t = 2 * linear_t * linear_t  # 加速
+        else:
+            t = 1 - (-2 * linear_t + 2) ** 2 / 2  # 减速
+        
         target_x = bezier_point(t, start_x, cp1_x, cp2_x, x)
         target_y = bezier_point(t, start_y, cp1_y, cp2_y, y)
         
-        # 添加随机抖动
-        jitter_x = random.randint(-5, 5)
-        jitter_y = random.randint(-5, 5)
+        # 添加微小抖动（人类手部震颤，1-3像素）
+        if i < steps - 1:
+            jitter_x = random.uniform(-2, 2)
+            jitter_y = random.uniform(-2, 2)
+        else:
+            jitter_x = 0
+            jitter_y = 0
         
-        target_x = int(target_x + jitter_x)
-        target_y = int(target_y + jitter_y)
+        final_x = int(target_x + jitter_x)
+        final_y = int(target_y + jitter_y)
         
-        result = run_cli(f"mousemove {target_x} {target_y}", timeout=5)
+        result = run_cli(f"mousemove {final_x} {final_y}", timeout=5)
         if not result["success"]:
-            # 如果精确移动失败，直接移动到目标
             result = run_cli(f"mousemove {x} {y}", timeout=5)
             break
         
-        # 每步之间随机延迟（模拟人类移动速度变化）
+        # 步间延迟：加速阶段短，减速阶段长
         if i < steps - 1:
-            delay = random.uniform(0.02, 0.08)  # 20-80ms
+            if linear_t < 0.3:
+                delay = random.uniform(0.03, 0.06)  # 加速阶段快
+            elif linear_t < 0.7:
+                delay = random.uniform(0.02, 0.04)  # 中间最快
+            else:
+                delay = random.uniform(0.04, 0.08)  # 减速阶段慢下来
             time.sleep(delay)
+    
+    # 更新上次鼠标位置
+    _last_mouse_pos = (x, y)
     
     log(f"[OK] 鼠标移动到 ({x}, {y})")
     return True
@@ -552,6 +610,145 @@ def load_state() -> bool:
         return False
 
 
+def inject_anti_detection():
+    """注入反检测JS脚本，覆盖自动化指纹标识
+    
+    解决的问题:
+    1. navigator.webdriver = true -> 改为 undefined
+    2. __pwInitScripts / __playwright 等全局变量 -> 删除
+    3. chrome.runtime 自动化标识 -> 清理
+    4. Permissions API 异常 -> 修正
+    5. navigator.plugins 为空 -> 模拟真实插件列表
+    6. navigator.languages 异常 -> 修正为中文
+    """
+    anti_detect_js = r"""
+    (() => {
+        try {
+            // 1. 覆盖 navigator.webdriver
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+                configurable: true
+            });
+
+            // 2. 删除 Playwright 注入的全局变量
+            const pwKeys = ['__pwInitScripts', '__playwright', '__pw_manual', '__PW_inspect'];
+            for (const key of pwKeys) {
+                try { delete window[key]; } catch(e) {}
+            }
+
+            // 3. 修正 chrome.runtime（自动化浏览器此对象异常）
+            if (window.chrome) {
+                try {
+                    const originalRuntime = window.chrome.runtime;
+                    if (!originalRuntime || typeof originalRuntime.connect !== 'function') {
+                        window.chrome.runtime = {
+                            connect: function() {},
+                            sendMessage: function() {},
+                            onMessage: { addListener: function() {} },
+                            id: undefined
+                        };
+                    }
+                } catch(e) {}
+            }
+
+            // 4. 修正 Permissions API（自动化浏览器 notification permission 行为异常）
+            const originalQuery = window.navigator.permissions?.query;
+            if (originalQuery) {
+                window.navigator.permissions.query = function(parameters) {
+                    if (parameters.name === 'notifications') {
+                        return Promise.resolve({ state: Notification.permission });
+                    }
+                    return originalQuery.call(this, parameters);
+                };
+            }
+
+            // 5. 模拟真实插件列表（自动化浏览器 plugins.length = 0）
+            if (navigator.plugins.length === 0) {
+                const fakePlugins = [
+                    { name: 'Chrome PDF Plugin', filename: 'internal-pdf-viewer', description: 'Portable Document Format' },
+                    { name: 'Chrome PDF Viewer', filename: 'mhjfbmdgcfjbbpaeojofohoefgiehjai', description: '' },
+                    { name: 'Native Client', filename: 'internal-nacl-plugin', description: '' }
+                ];
+                const pluginArray = [];
+                for (const p of fakePlugins) {
+                    const plugin = Object.create(Plugin.prototype);
+                    Object.defineProperties(plugin, {
+                        name: { get: () => p.name },
+                        filename: { get: () => p.filename },
+                        description: { get: () => p.description },
+                        length: { get: () => 1 }
+                    });
+                    pluginArray.push(plugin);
+                }
+                Object.defineProperty(navigator, 'plugins', {
+                    get: () => pluginArray,
+                    configurable: true
+                });
+            }
+
+            // 6. 修正 navigator.languages（自动化浏览器可能只有 ['en-US']）
+            Object.defineProperty(navigator, 'languages', {
+                get: () => ['zh-CN', 'zh', 'en-US', 'en'],
+                configurable: true
+            });
+
+            // 7. 修正 iframe contentWindow 检测（某些反爬通过 iframe 检测自动化）
+            const originalContentWindow = Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype, 'contentWindow');
+            if (originalContentWindow) {
+                Object.defineProperty(HTMLIFrameElement.prototype, 'contentWindow', {
+                    get: function() {
+                        const win = originalContentWindow.get.call(this);
+                        if (win) {
+                            try {
+                                Object.defineProperty(win.navigator, 'webdriver', {
+                                    get: () => undefined,
+                                    configurable: true
+                                });
+                            } catch(e) {}
+                        }
+                        return win;
+                    },
+                    configurable: true
+                });
+            }
+
+            // 8. 修正 toString 检测（反爬会检测 native function 是否被篡改）
+            const nativeToString = Function.prototype.toString;
+            const fakedFunctions = new Map();
+            const fakeToString = function() {
+                if (fakedFunctions.has(this)) {
+                    return fakedFunctions.get(this);
+                }
+                return nativeToString.call(this);
+            };
+            fakedFunctions.set(fakeToString, 'function toString() { [native code] }');
+            Function.prototype.toString = fakeToString;
+
+            // 为所有覆盖过的函数注册 native toString
+            const patchedPairs = [
+                [navigator.permissions.query, 'function query() { [native code] }'],
+                [Object.getOwnPropertyDescriptor(navigator, 'webdriver')?.get, 'function get webdriver() { [native code] }'],
+                [Object.getOwnPropertyDescriptor(navigator, 'languages')?.get, 'function get languages() { [native code] }'],
+            ];
+            for (const [fn, str] of patchedPairs) {
+                if (fn) fakedFunctions.set(fn, str);
+            }
+
+            return 'anti_detection_injected';
+        } catch(e) {
+            return 'anti_detection_error: ' + e.message;
+        }
+    })()
+    """
+    result = eval_js_raw(anti_detect_js)
+    if 'anti_detection_injected' in (result or ''):
+        log("[OK] 反检测脚本注入成功")
+        return True
+    else:
+        log(f"[WARN] 反检测脚本注入可能失败: {result}")
+        return False
+
+
 def setup_session(headed: bool = True, navigate_home: bool = True) -> bool:
     """设置浏览器会话
     
@@ -561,6 +758,7 @@ def setup_session(headed: bool = True, navigate_home: bool = True) -> bool:
     3. 如果失败，打开新浏览器
     4. 加载登录状态
     5. 验证登录状态
+    6. 注入反检测脚本
     
     Args:
         headed: 是否使用有头模式
@@ -586,6 +784,7 @@ def setup_session(headed: bool = True, navigate_home: bool = True) -> bool:
         if not navigate_home:
             log("检查当前页面登录状态...")
             if check_login_status_xhs():
+                inject_anti_detection()
                 log("[OK] 登录状态有效")
                 return True
     else:
@@ -602,7 +801,21 @@ def setup_session(headed: bool = True, navigate_home: bool = True) -> bool:
             goto("https://www.xiaohongshu.com")
             time.sleep(3)
     
-    # 4. 验证登录状态
+    # 4. 注入反检测脚本
+    inject_anti_detection()
+    
+    # 4.5 设置自然视口尺寸（Playwright 默认 1280x720 太不自然）
+    # 真实用户常见分辨率：1920x1080, 1366x768, 1536x864
+    # 浏览器窗口通常不是全屏，所以用稍小的值
+    natural_viewports = [
+        (1920, 1080), (1366, 768), (1536, 864),
+        (1440, 900), (1280, 900), (1600, 900)
+    ]
+    viewport = random.choice(natural_viewports)
+    resize(viewport[0], viewport[1])
+    log(f"[OK] 视口设置为 {viewport[0]}x{viewport[1]}")
+    
+    # 5. 验证登录状态
     log("检查登录状态...")
     if check_login_status_xhs():
         log("[OK] 登录状态有效")
@@ -732,6 +945,9 @@ def collect_all_notes_from_board(board_url: str) -> list:
         random_sleep(1.5, 0.3)
         scroll_attempts += 1
         
+        # 随机浏览行为（降低行为模式被检测的风险）
+        random_browse_behavior()
+        
         # 每10次滚动报告一次
         if scroll_attempts % 10 == 0:
             log(f"已滚动 {scroll_attempts} 次，收集 {len(all_notes)} 个笔记", indent=1)
@@ -779,44 +995,68 @@ def search_note_in_board(title_keyword: str, board_url: str) -> dict:
     random_sleep(0.8, 0.3)
     
     # 清空并输入关键词
-    log("输入搜索关键词...")
-    eval_js_raw("""
-        (() => {
-            const input = document.querySelector('input[placeholder*="搜索"], input[placeholder*="搜"], .search-input input, .search-bar input, input[type="search"]');
-            if (input) { input.select(); input.value = ''; input.dispatchEvent(new Event('input', {bubbles: true})); return 'cleared'; }
-            return 'not_found';
-        })()
-    """)
-    random_sleep(0.5, 0.2)
+    log("清空搜索框（模拟人类操作）...")
+    # 用 Ctrl+A 全选 + Delete 删除，而非直接设 input.value
+    # 因为 input.value = '' 不触发完整事件链，可被检测
+    run_cli("press Control+a", timeout=2)
+    random_sleep(0.1, 0.05)
+    run_cli("press Backspace", timeout=2)
+    random_sleep(0.3, 0.15)
     
     # 使用真实按键输入（模拟人类逐字输入）
     log("使用真实按键输入...")
     
-    def type_text(text: str):
-        """逐字输入，模拟人类打字行为"""
-        for char in text:
+    def type_text_human(text: str):
+        """逐字输入，模拟人类打字行为
+        
+        改进:
+        - ASCII字符使用 playwright-cli 的 type 命令（触发完整键盘事件链）
+        - 中文字符使用 JS 逐字触发完整 InputEvent（含 inputType/data）
+          因为 playwright-cli type 命令不支持中文
+        - 打字速度更随机（50-300ms，模拟不同打字速度）
+        - 偶尔停顿思考（3%概率停顿0.5-1.5秒）
+        - 偶尔打错然后删除（1%概率，仅ASCII）
+        """
+        for i, char in enumerate(text):
             if char == ' ':
                 run_cli("press Space", timeout=2)
             elif char == '\n':
                 run_cli("press Enter", timeout=2)
+            elif ord(char) > 127:
+                # 中文字符：用 JS 逐字触发完整 InputEvent
+                encoded_char = base64.b64encode(char.encode('utf-8')).decode('utf-8')
+                eval_js_raw(f"""
+                    (() => {{
+                        const input = document.querySelector('input[placeholder*="搜索"], input[placeholder*="搜"], .search-input input, .search-bar input, input[type="search"]');
+                        if (!input) return 'not_found';
+                        const ch = atob('{encoded_char}');
+                        input.dispatchEvent(new KeyboardEvent('keydown', {{key: ch, bubbles: true}}));
+                        input.dispatchEvent(new InputEvent('beforeinput', {{inputType: 'insertText', data: ch, bubbles: true, cancelable: true}}));
+                        input.value += ch;
+                        input.dispatchEvent(new InputEvent('input', {{inputType: 'insertText', data: ch, bubbles: true}}));
+                        input.dispatchEvent(new KeyboardEvent('keyup', {{key: ch, bubbles: true}}));
+                        return 'typed';
+                    }})()
+                """)
             else:
-                # 使用 playwright-cli 的 type 命令
-                # 如果不支持单个字符，使用 press Key
                 result = run_cli(f'type "{char}"', timeout=2)
                 if not result.get("success"):
-                    # 回退：使用 keyboard 命令
                     run_cli(f'keyboard "{char}"', timeout=2)
-            # 打字速度随机：50-200ms 每字
-            time.sleep(random.uniform(0.05, 0.2))
-            # 偶尔打错然后删除（1%概率）- 模拟人类打字习惯
-            if random.random() < 0.01:
-                # 打错一个字符
+            
+            # 打字速度随机：50-300ms 每字
+            base_delay = random.uniform(0.05, 0.25)
+            # 偶尔停顿思考（3%概率）
+            if random.random() < 0.03:
+                base_delay += random.uniform(0.5, 1.5)
+            time.sleep(base_delay)
+            
+            # 偶尔打错然后删除（1%概率，仅ASCII）- 模拟人类打字习惯
+            if random.random() < 0.01 and ord(char) <= 127:
                 wrong_char = chr(random.randint(ord('a'), ord('z')))
                 run_cli(f'type "{wrong_char}"', timeout=2)
-                time.sleep(random.uniform(0.05, 0.1))
-                # 删除
+                time.sleep(random.uniform(0.1, 0.3))
                 run_cli("press Backspace", timeout=2)
-                time.sleep(random.uniform(0.05, 0.15))
+                time.sleep(random.uniform(0.1, 0.2))
     
     # 先点击输入框确保聚焦
     if not real_click(x, y):
@@ -824,23 +1064,15 @@ def search_note_in_board(title_keyword: str, board_url: str) -> dict:
         return {"found": False}
     random_sleep(0.3, 0.1)
     
-    # 清空输入框（如果有内容）
-    eval_js_raw("""
-        (() => {
-            const input = document.querySelector('input[placeholder*="搜索"], input[placeholder*="搜"], .search-input input, .search-bar input, input[type="search"]');
-            if (input) { 
-                input.value = ''; 
-                input.dispatchEvent(new Event('input', {bubbles: true})); 
-                return 'cleared'; 
-            }
-            return 'not_found';
-        })()
-    """)
-    random_sleep(0.2, 0.1)
+    # 清空输入框（Ctrl+A + Delete，模拟人类）
+    run_cli("press Control+a", timeout=2)
+    random_sleep(0.1, 0.05)
+    run_cli("press Backspace", timeout=2)
+    random_sleep(0.3, 0.15)
     
     # 逐字输入关键词
-    type_text(title_keyword)
-    random_sleep(0.3, 0.1)
+    type_text_human(title_keyword)
+    random_sleep(0.5, 0.2)
     
     # 按 Enter 提交搜索
     log("提交搜索...")
@@ -927,11 +1159,13 @@ def scroll_by(delta_y: int) -> bool:
     """滚动指定距离，模拟人类滚动行为
     
     改进:
-    - 使用可变滚动距离（不是固定值）
-    - 添加滚动减速过程
-    - 偶尔"滚动过头"然后回滚一点
+    - 使用可变滚动距离
+    - 分段滚动模拟减速惯性
+    - 偶尔滚动过头然后回滚
+    - 偶尔停顿"阅读"内容（模拟人类浏览行为）
+    - 使用 mousewheel 命令替代 JS scrollBy（更接近真实滚动事件）
     """
-    # 获取视口高度，用于计算相对滚动
+    # 获取视口高度
     viewport_result = eval_js_raw("""
         (() => { return window.innerHeight; })()
     """)
@@ -939,11 +1173,6 @@ def scroll_by(delta_y: int) -> bool:
         viewport_height = int(viewport_result)
     except:
         viewport_height = 800
-    
-    # 人类滚动特点：
-    # 1. 每次滚动距离不固定（0.3-1.5个视口高度）
-    # 2. 滚动速度不恒定
-    # 3. 偶尔滚动过头然后微调
     
     # 计算滚动距离：视口的0.3-0.8倍
     scroll_ratio = random.uniform(0.3, 0.8)
@@ -953,33 +1182,112 @@ def scroll_by(delta_y: int) -> bool:
     overscroll = False
     if random.random() < 0.1:
         overscroll = True
-        # 滚动过头量：多滚10-30%
         overscroll_amount = int(actual_scroll * random.uniform(0.1, 0.3))
         actual_scroll += overscroll_amount
     
     # 方向
-    if delta_y < 0:
-        actual_scroll = -actual_scroll
+    direction = 1 if delta_y >= 0 else -1
+    total_scroll = actual_scroll * direction
     
-    # 执行滚动（分多次模拟减速）
-    # 初始快一点
-    fast_scroll = int(actual_scroll * random.uniform(0.6, 0.8))
-    slow_scroll = actual_scroll - fast_scroll
+    # 使用 mousewheel 命令（比 JS scrollBy 更真实，触发 wheel 事件）
+    # 分3-5次小滚动模拟惯性
+    num_chunks = random.randint(3, 5)
+    chunk_size = total_scroll // num_chunks
+    remainder = total_scroll - chunk_size * num_chunks
     
-    # 第一次滚动（快）
-    eval_js_raw(f"(() => {{ window.scrollBy(0, {fast_scroll}); return 'ok'; }})()")
-    time.sleep(random.uniform(0.05, 0.15))  # 短暂停顿
-    
-    # 第二次滚动（慢，模拟减速）
-    eval_js_raw(f"(() => {{ window.scrollBy(0, {slow_scroll}); return 'ok'; }})()")
+    for i in range(num_chunks):
+        scroll_amount = chunk_size
+        if i == num_chunks - 1:
+            scroll_amount += remainder
+        
+        # 每次滚动量添加随机抖动
+        jitter = int(scroll_amount * random.uniform(-0.1, 0.1))
+        scroll_amount += jitter
+        
+        if scroll_amount != 0:
+            result = run_cli(f"mousewheel 0 {scroll_amount}", timeout=5)
+            if not result.get("success"):
+                # 回退到 JS scrollBy
+                eval_js_raw(f"(() => {{ window.scrollBy(0, {scroll_amount}); return 'ok'; }})()")
+        
+        # 滚动间隔：前几次快，最后一次慢（减速）
+        if i < num_chunks - 1:
+            delay = random.uniform(0.05, 0.12)
+        else:
+            delay = random.uniform(0.1, 0.2)
+        time.sleep(delay)
     
     # 如果滚动过头，微调回来
     if overscroll:
-        time.sleep(random.uniform(0.2, 0.5))  # 犹豫一下
-        correction = -int(overscroll_amount * random.uniform(0.5, 0.8))
-        eval_js_raw(f"(() => {{ window.scrollBy(0, {correction}); return 'ok'; }})()")
+        time.sleep(random.uniform(0.2, 0.5))
+        correction = -int(overscroll_amount * direction * random.uniform(0.5, 0.8))
+        if correction != 0:
+            run_cli(f"mousewheel 0 {correction}", timeout=5)
+    
+    # 偶尔停顿"阅读"（15%概率停顿1-4秒）
+    if random.random() < 0.15:
+        read_time = random.uniform(1.0, 4.0)
+        time.sleep(read_time)
     
     return True
+
+
+def random_browse_behavior():
+    """随机执行人类浏览行为，降低行为模式被检测的风险
+    
+    模拟的行为:
+    - 随机移动鼠标到页面某个位置（模拟阅读时移动视线）
+    - 偶尔滚动一小段（模拟浏览习惯）
+    - 偶尔在笔记上悬停（模拟看封面）
+    - 偶尔点击空白区域（模拟无意点击）
+    
+    每次调用有30%概率执行某种行为
+    """
+    if random.random() > 0.3:
+        return
+    
+    behavior = random.choice(['mousemove', 'small_scroll', 'hover_note', 'idle'])
+    
+    if behavior == 'mousemove':
+        # 随机移动鼠标到页面某个位置
+        target_x = random.randint(200, 1200)
+        target_y = random.randint(100, 700)
+        mousemove(target_x, target_y)
+        time.sleep(random.uniform(0.5, 1.5))
+    
+    elif behavior == 'small_scroll':
+        # 小幅度滚动（模拟阅读时的微调）
+        small_scroll = random.randint(50, 200) * random.choice([1, -1])
+        run_cli(f"mousewheel 0 {small_scroll}", timeout=5)
+        time.sleep(random.uniform(0.5, 2.0))
+    
+    elif behavior == 'hover_note':
+        # 在某个笔记卡片上悬停
+        result = eval_js_raw("""
+            (() => {
+                const notes = document.querySelectorAll('.feeds-container section.note-item');
+                if (notes.length === 0) return JSON.stringify({found: false});
+                const idx = Math.floor(Math.random() * notes.length);
+                const note = notes[idx];
+                const rect = note.getBoundingClientRect();
+                return JSON.stringify({
+                    found: true,
+                    x: Math.round(rect.left + rect.width / 2),
+                    y: Math.round(rect.top + rect.height / 2)
+                });
+            })()
+        """)
+        try:
+            pos = json.loads(result) if result else {"found": False}
+            if pos.get("found"):
+                mousemove(pos["x"], pos["y"])
+                time.sleep(random.uniform(1.0, 3.0))
+        except:
+            pass
+    
+    elif behavior == 'idle':
+        # 什么都不做，只是停顿（模拟发呆/思考）
+        time.sleep(random.uniform(2.0, 5.0))
 
 
 def scroll_note_to_center(note_idx: int) -> bool:
@@ -1082,6 +1390,10 @@ def click_note_by_index(note_idx: int) -> str:
         for attempt in range(max_attempts):
             scroll_by(scroll_distance)
             time.sleep(2)
+            
+            # 随机浏览行为
+            if attempt % 3 == 0:
+                random_browse_behavior()
             
             new_min, new_max, new_count = get_visible_range()
             log(f"滚动 {attempt + 1}: 范围 {new_min} - {new_max}", indent=2)

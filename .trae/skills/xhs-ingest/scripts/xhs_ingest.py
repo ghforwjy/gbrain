@@ -40,7 +40,8 @@ from xhs_cli import (
     setup_session, get_current_url, goto, eval_js_raw,
     real_click, check_popup_opened, close_popup, save_state,
     log, run_cli, click_note_by_index, screenshot_slides,
-    collect_all_notes_from_board, search_note_in_board
+    collect_all_notes_from_board, search_note_in_board,
+    random_browse_behavior
 )
 from xhs_progress import (
     load_progress, mark_note_completed, mark_note_failed,
@@ -153,27 +154,47 @@ def search_note_by_title(title: str) -> str:
         return ""
     random_sleep(0.8, 0.3)
     
-    # 4. 清空并输入
+    # 4. 清空并输入（模拟人类键盘操作，避免直接设 input.value）
     log("输入搜索关键词...")
-    eval_js_raw("""
-        (() => {
-            const input = document.querySelector('input[placeholder*="搜索"], input[placeholder*="搜"], .search-input input, .search-bar input, input[type="search"], .header-search input');
-            if (input) { input.select(); input.value = ''; input.dispatchEvent(new Event('input', {bubbles: true})); return 'cleared'; }
-            return 'not_found';
-        })()
-    """)
-    random_sleep(0.5, 0.2)
+    # 用 Ctrl+A 全选 + Backspace 删除，而非 JS 直接设 input.value
+    run_cli("press Control+a", timeout=2)
+    random_sleep(0.1, 0.05)
+    run_cli("press Backspace", timeout=2)
+    random_sleep(0.3, 0.15)
     
+    # 中文输入方案：使用 JS 逐字触发完整 InputEvent（含 inputType/data）
+    # playwright-cli type 命令不支持中文，所以用 JS 但确保事件链完整
+    # 关键区别：之前用 input.value = '整段文字'，现在逐字触发 InputEvent
     encoded_title = base64.b64encode(title.encode('utf-8')).decode('utf-8')
     eval_js_raw(f"""
         (() => {{
             const input = document.querySelector('input[placeholder*="搜索"], input[placeholder*="搜"], .search-input input, .search-bar input, input[type="search"], .header-search input');
             if (!input) return 'not_found';
             const query = atob('{encoded_title}');
-            input.value = query;
-            input.dispatchEvent(new Event('input', {{bubbles: true}}));
+            // 逐字输入，触发完整 InputEvent 事件链
+            for (let i = 0; i < query.length; i++) {{
+                const char = query[i];
+                // 1. keydown
+                input.dispatchEvent(new KeyboardEvent('keydown', {{
+                    key: char, code: 'Key' + char.toUpperCase(), bubbles: true
+                }}));
+                // 2. beforeinput（含 inputType 和 data，这是真实打字的关键特征）
+                input.dispatchEvent(new InputEvent('beforeinput', {{
+                    inputType: 'insertText', data: char, bubbles: true, cancelable: true
+                }}));
+                // 3. 修改 value
+                input.value = query.substring(0, i + 1);
+                // 4. input（含 inputType 和 data）
+                input.dispatchEvent(new InputEvent('input', {{
+                    inputType: 'insertText', data: char, bubbles: true
+                }}));
+                // 5. keyup
+                input.dispatchEvent(new KeyboardEvent('keyup', {{
+                    key: char, code: 'Key' + char.toUpperCase(), bubbles: true
+                }}));
+            }}
+            // 6. change
             input.dispatchEvent(new Event('change', {{bubbles: true}}));
-            input.dispatchEvent(new KeyboardEvent('keydown', {{key: 'Enter', keyCode: 13, bubbles: true}}));
             return 'typed';
         }})()
     """)
@@ -276,6 +297,9 @@ def auto_open_next_note() -> str:
         log("导航到收藏夹...")
         goto(f"https://www.xiaohongshu.com/board/{BOARD_ID}")
         random_sleep(3.0, 0.5)
+    
+    # 随机浏览行为（模拟人类浏览习惯）
+    random_browse_behavior()
     
     # 4. 点击笔记
     note_id = click_note_by_index(next_idx)
