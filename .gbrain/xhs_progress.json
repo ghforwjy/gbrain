@@ -1800,7 +1800,9 @@
           "status": "pending"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-698c52a7000000000b0081d4.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -1826,7 +1828,9 @@
           "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69a222d9000000001a0212e5.md",
+          "slides_processed": 0
         },
         "phase4_vision": {
           "status": "pending"
@@ -1852,7 +1856,9 @@
           "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-6983e7a2000000000b011966.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -1878,7 +1884,9 @@
           "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69985fe4000000000c037f18.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -1904,7 +1912,9 @@
           "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-68be2b0d000000001d013a8e.md",
+          "slides_processed": 17
         },
         "phase4_vision": {
           "status": "pending"
@@ -1930,7 +1940,9 @@
           "screenshot_dir": "D:\\mycode\\gbrain\\.playwright-cli"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69463a53000000001e014df9.md",
+          "slides_processed": 17
         },
         "phase4_vision": {
           "status": "pending"
@@ -1954,7 +1966,9 @@
           "status": "pending"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-68b3b788000000001d025d7b.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -1978,7 +1992,9 @@
           "status": "pending"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-699a8e8b000000000b00a3b8.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -2002,7 +2018,9 @@
           "status": "pending"
         },
         "phase3_ocr": {
-          "status": "pending"
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69a7bfeb000000001a035034.md",
+          "slides_processed": 1
         },
         "phase4_vision": {
           "status": "pending"
@@ -3049,7 +3067,7 @@
       "status": "pending"
     }
   ],
-  "last_updated": "2026-05-04 11:38:44",
+  "last_updated": "2026-05-04 13:05:33",
   "chrome_pid": null,
   "cdp_port": 9223
 }
