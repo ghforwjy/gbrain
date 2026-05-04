@@ -1,0 +1,346 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /explore
+        - img
+      - generic [ref=e7]:
+        - textbox [ref=e8]:
+          - /placeholder: 搜索小红书
+        - textbox "搜索小红书" [ref=e9]
+        - generic [ref=e10]:
+          - img [ref=e12]
+          - img [ref=e15] [cursor=pointer]
+      - generic [ref=e19]:
+        - button "创作中心" [ref=e21] [cursor=pointer]:
+          - generic [ref=e23]: 创作中心
+        - button "业务合作" [ref=e25] [cursor=pointer]:
+          - generic [ref=e27]: 业务合作
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - list [ref=e30]:
+          - generic [ref=e31]:
+            - listitem [ref=e32] [cursor=pointer]:
+              - link "发现" [ref=e33]:
+                - /url: /explore?channel_id=homefeed_recommend
+                - img [ref=e34]
+                - generic [ref=e36]: 发现
+            - listitem [ref=e37] [cursor=pointer]:
+              - link "直播" [ref=e38]:
+                - /url: /livelist?channel_id=0&channel_type=web_live_list
+                - img [ref=e39]
+                - generic [ref=e41]: 直播
+            - listitem [ref=e42] [cursor=pointer]:
+              - link "发布" [ref=e43]:
+                - /url: https://creator.xiaohongshu.com/publish/publish?source=official
+                - img [ref=e44]
+                - generic [ref=e46]: 发布
+            - listitem [ref=e47] [cursor=pointer]:
+              - link "通知" [ref=e48]:
+                - /url: /notification
+                - img [ref=e50]
+                - generic [ref=e52]: 通知
+            - listitem [ref=e53] [cursor=pointer]:
+              - link "我" [ref=e55]:
+                - /url: /user/profile/608286f10000000001009ad1
+                - img [ref=e59]
+                - generic [ref=e62]: 我
+          - generic [ref=e63]:
+            - paragraph [ref=e64]:
+              - link "沪ICP备13030189号" [ref=e65] [cursor=pointer]:
+                - /url: //beian.miit.gov.cn/
+              - text: "|"
+              - link "营业执照" [ref=e66] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+              - text: "|"
+              - link "2024沪公网安备31010102002533号" [ref=e67] [cursor=pointer]:
+                - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+              - text: "|"
+              - link "增值电信业务经营许可证：沪B2-20150021" [ref=e68] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+              - text: "|"
+              - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e69] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+              - text: "|"
+              - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e70] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+              - text: "|"
+              - link "违法不良信息举报电话：4006676810" [ref=e71] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "上海市互联网举报中心" [ref=e72] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "网上有害信息举报专区" [ref=e73] [cursor=pointer]:
+                - /url: //www.12377.cn
+              - text: "|"
+              - link "自营经营者信息" [ref=e74] [cursor=pointer]:
+                - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+              - text: "|"
+              - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e75] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+              - text: "|"
+              - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e76] [cursor=pointer]:
+                - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+            - generic [ref=e77]:
+              - paragraph [ref=e78]: © 2014-2026
+              - paragraph [ref=e79]: 行吟信息科技（上海）有限公司
+              - paragraph [ref=e80]: 地址：上海市黄浦区马当路388号C座
+              - paragraph [ref=e81]: 电话：9501-3888
+        - generic [ref=e83]:
+          - generic [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - text: 更多
+          - generic [ref=e87]:
+            - paragraph [ref=e88]:
+              - link "沪ICP备13030189号" [ref=e89] [cursor=pointer]:
+                - /url: //beian.miit.gov.cn/
+              - text: "|"
+              - link "营业执照" [ref=e90] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+              - text: "|"
+              - link "2024沪公网安备31010102002533号" [ref=e91] [cursor=pointer]:
+                - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+              - text: "|"
+              - link "增值电信业务经营许可证：沪B2-20150021" [ref=e92] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+              - text: "|"
+              - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e93] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+              - text: "|"
+              - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e94] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+              - text: "|"
+              - link "违法不良信息举报电话：4006676810" [ref=e95] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "上海市互联网举报中心" [ref=e96] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "网上有害信息举报专区" [ref=e97] [cursor=pointer]:
+                - /url: //www.12377.cn
+              - text: "|"
+              - link "自营经营者信息" [ref=e98] [cursor=pointer]:
+                - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+              - text: "|"
+              - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e99] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+              - text: "|"
+              - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e100] [cursor=pointer]:
+                - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: © 2014-2026
+              - paragraph [ref=e103]: 行吟信息科技（上海）有限公司
+              - paragraph [ref=e104]: 地址：上海市黄浦区马当路388号C座
+              - paragraph [ref=e105]: 电话：9501-3888
+      - generic [ref=e107]:
+        - generic [ref=e110]:
+          - generic [ref=e111] [cursor=pointer]: 推荐
+          - generic [ref=e112] [cursor=pointer]: 穿搭
+          - generic [ref=e113] [cursor=pointer]: 美食
+          - generic [ref=e114] [cursor=pointer]: 彩妆
+          - generic [ref=e115] [cursor=pointer]: 影视
+          - generic [ref=e116] [cursor=pointer]: 职场
+          - generic [ref=e117] [cursor=pointer]: 情感
+          - generic [ref=e118] [cursor=pointer]: 家居
+          - generic [ref=e119] [cursor=pointer]: 游戏
+          - generic [ref=e120] [cursor=pointer]: 旅行
+          - generic [ref=e121] [cursor=pointer]: 健身
+        - img [ref=e123]
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - link [ref=e129] [cursor=pointer]:
+              - /url: /explore/69dd0191000000001d01e487?xsec_token=ABVjM29DTOGiaG8p1P2A87kKgodzd8gByhzP6OIzHRcZA=&xsec_source=
+              - img [ref=e130]
+              - img [ref=e132]
+            - generic [ref=e134]:
+              - link "因为这一刻的相遇，才有了射雕到神雕的延续" [ref=e135] [cursor=pointer]:
+                - /url: /explore/69dd0191000000001d01e487?xsec_token=ABVjM29DTOGiaG8p1P2A87kKgodzd8gByhzP6OIzHRcZA=&xsec_source=
+              - generic [ref=e136]:
+                - link "清零" [ref=e137] [cursor=pointer]:
+                  - /url: /user/profile/665ff97b000000000700498c?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABsSZwjzSKstxcZddetEqLlD_nA8w_GLDULHuwUPChIAY=&xsec_source=pc_feed
+                  - img [ref=e139]
+                  - generic [ref=e140]: 清零
+                - generic [ref=e141] [cursor=pointer]:
+                  - img [ref=e143]
+                  - generic [ref=e145]: "317"
+          - generic [ref=e147]:
+            - link [ref=e148] [cursor=pointer]:
+              - /url: /explore/69f59162000000001f0007a1?xsec_token=AB4BuYhQutimy3ra4-43skyOaYdktKa48ufNYLbKbbHKQ=&xsec_source=
+              - img [ref=e149]
+            - generic [ref=e150]:
+              - link "见过这个的人肯定很少" [ref=e151] [cursor=pointer]:
+                - /url: /explore/69f59162000000001f0007a1?xsec_token=AB4BuYhQutimy3ra4-43skyOaYdktKa48ufNYLbKbbHKQ=&xsec_source=
+              - generic [ref=e152]:
+                - link "一比六十四" [ref=e153] [cursor=pointer]:
+                  - /url: /user/profile/67ef44e4000000000d009b37?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=AB8HflwyDzHs4Gicjr9-3U-wDmgVIAEg4dcbjZbChvJ8E=&xsec_source=pc_feed
+                  - img [ref=e155]
+                  - generic [ref=e156]: 一比六十四
+                - generic [ref=e157] [cursor=pointer]:
+                  - img [ref=e159]
+                  - generic [ref=e161]: "89"
+          - generic [ref=e163]:
+            - link [ref=e164] [cursor=pointer]:
+              - /url: /explore/69f4781a000000001f002a17?xsec_token=AByFInhX7LgZaTeSPDEX6YXyAuQsd9CmHEtJnn0htBW74=&xsec_source=
+              - img [ref=e165]
+            - generic [ref=e166]:
+              - link "5.1春熙路现状。。。" [ref=e167] [cursor=pointer]:
+                - /url: /explore/69f4781a000000001f002a17?xsec_token=AByFInhX7LgZaTeSPDEX6YXyAuQsd9CmHEtJnn0htBW74=&xsec_source=
+              - generic [ref=e168]:
+                - link "小成都" [ref=e169] [cursor=pointer]:
+                  - /url: /user/profile/620a25070000000021020f23?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABRwSGGpNxBkijLYsEQRcurF71c1yicOEwrWUPAMVgj2I=&xsec_source=pc_feed
+                  - img [ref=e171]
+                  - generic [ref=e172]: 小成都
+                - generic [ref=e173] [cursor=pointer]:
+                  - img [ref=e175]
+                  - generic [ref=e177]: "24"
+          - generic [ref=e179]:
+            - link [ref=e180] [cursor=pointer]:
+              - /url: /explore/69e8a6db000000002202b7d4?xsec_token=ABmv2d957F7PvgDkZOB4NzBRY05xScXlJPvD6nUQOCHfM=&xsec_source=
+              - img [ref=e181]
+            - generic [ref=e182]:
+              - link "📍成都｜朋友圈文案" [ref=e183] [cursor=pointer]:
+                - /url: /explore/69e8a6db000000002202b7d4?xsec_token=ABmv2d957F7PvgDkZOB4NzBRY05xScXlJPvD6nUQOCHfM=&xsec_source=
+              - generic [ref=e184]:
+                - link "咔咔咔✨" [ref=e185] [cursor=pointer]:
+                  - /url: /user/profile/69c0ccc20000000033025fdd?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABuI02W_byvfqmhFJjpwZR2kNqNOXn0qwWct1uWwyNgDA=&xsec_source=pc_feed
+                  - img [ref=e187]
+                  - generic [ref=e188]: 咔咔咔✨
+                - generic [ref=e189] [cursor=pointer]:
+                  - img [ref=e191]
+                  - generic [ref=e193]: "126"
+          - generic [ref=e195]:
+            - link [ref=e196] [cursor=pointer]:
+              - /url: /explore/69f2d78b0000000035039122?xsec_token=ABBZUeiu9ojDCQvVdf__VH2Z8gfeHXb3nsC67zyuyajSA=&xsec_source=
+              - img [ref=e197]
+            - generic [ref=e198]:
+              - link "别乱塞Skill！智能体技能管理4大方案全解析" [ref=e199] [cursor=pointer]:
+                - /url: /explore/69f2d78b0000000035039122?xsec_token=ABBZUeiu9ojDCQvVdf__VH2Z8gfeHXb3nsC67zyuyajSA=&xsec_source=
+              - generic [ref=e200]:
+                - link "数字游民的小屋" [ref=e201] [cursor=pointer]:
+                  - /url: /user/profile/652e54e9000000002b000197?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABUqklz-AG0_qOn-dJo_roDPGj5LVpLE5XBOy1myA7B9I=&xsec_source=pc_feed
+                  - img [ref=e203]
+                  - generic [ref=e204]: 数字游民的小屋
+                - generic [ref=e205] [cursor=pointer]:
+                  - img [ref=e207]
+                  - generic [ref=e209]: "7"
+          - generic [ref=e211]:
+            - link [ref=e212] [cursor=pointer]:
+              - /url: /explore/69f6108500000000370357e2?xsec_token=AB1kDt6B4fnYttSahh57wCRVLU8tP5iwgWoUiX_X7NSZc=&xsec_source=
+              - img [ref=e213]
+              - img [ref=e215]
+            - generic [ref=e217]:
+              - link "我的古装武侠启蒙人物楚留香，惊为天人" [ref=e218] [cursor=pointer]:
+                - /url: /explore/69f6108500000000370357e2?xsec_token=AB1kDt6B4fnYttSahh57wCRVLU8tP5iwgWoUiX_X7NSZc=&xsec_source=
+              - generic [ref=e219]:
+                - link "秋羽" [ref=e220] [cursor=pointer]:
+                  - /url: /user/profile/60eda5af0000000001015073?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABG9yGZFA7YiLELmLWZej5D9nQqdILrl6gW3tqzKDOd1E=&xsec_source=pc_feed
+                  - img [ref=e222]
+                  - generic [ref=e223]: 秋羽
+                - generic [ref=e224] [cursor=pointer]:
+                  - img [ref=e226]
+                  - generic [ref=e228]: "52"
+          - generic [ref=e230]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: /explore/69f6388f000000003601f448?xsec_token=AB1kDt6B4fnYttSahh57wCRUQZ5cR78FH1qB0RaQi8svo=&xsec_source=
+              - img [ref=e232]
+            - generic [ref=e233]:
+              - link "绝美之境真的绝美！每个角落都出片" [ref=e234] [cursor=pointer]:
+                - /url: /explore/69f6388f000000003601f448?xsec_token=AB1kDt6B4fnYttSahh57wCRUQZ5cR78FH1qB0RaQi8svo=&xsec_source=
+              - generic [ref=e235]:
+                - link "XO" [ref=e236] [cursor=pointer]:
+                  - /url: /user/profile/618c5dea0000000002022a28?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=AB8Mlw2uTkUUembGXGPyHct7XObZbZJEAIcNb97uz3buQ=&xsec_source=pc_feed
+                  - img [ref=e238]
+                  - generic [ref=e239]: XO
+                - generic [ref=e240] [cursor=pointer]:
+                  - img [ref=e242]
+                  - generic [ref=e244]: "1"
+          - generic [ref=e246]:
+            - link [ref=e247] [cursor=pointer]:
+              - /url: /explore/69f5dcc20000000020038a71?xsec_token=AB4BuYhQutimy3ra4-43skyG-NX04ofR3QO3neSOG_8Ko=&xsec_source=
+              - img [ref=e248]
+            - generic [ref=e249]:
+              - link "王府井步行街" [ref=e250] [cursor=pointer]:
+                - /url: /explore/69f5dcc20000000020038a71?xsec_token=AB4BuYhQutimy3ra4-43skyG-NX04ofR3QO3neSOG_8Ko=&xsec_source=
+              - generic [ref=e251]:
+                - link "星河." [ref=e252] [cursor=pointer]:
+                  - /url: /user/profile/64802a060000000025037708?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABASLlQwXC-rQGU_hazbUkETjDoptUjblKVaarQnKyZqs=&xsec_source=pc_feed
+                  - img [ref=e254]
+                  - generic [ref=e255]: 星河.
+                - img [ref=e258] [cursor=pointer]
+          - generic [ref=e261]:
+            - link [ref=e262] [cursor=pointer]:
+              - /url: /explore/69f59764000000001f0025a5?xsec_token=AB4BuYhQutimy3ra4-43skyJjQnK8EfEbXCe5jre9lzU4=&xsec_source=
+              - img [ref=e263]
+            - generic [ref=e264]:
+              - link "@YOLOPARK @TOYPIAS%玩具理想国" [ref=e265] [cursor=pointer]:
+                - /url: /explore/69f59764000000001f0025a5?xsec_token=AB4BuYhQutimy3ra4-43skyJjQnK8EfEbXCe5jre9lzU4=&xsec_source=
+              - generic [ref=e266]:
+                - link "Bowen_qiao" [ref=e267] [cursor=pointer]:
+                  - /url: /user/profile/6244567d000000001000f8c5?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=AByhWcCfP7TusXFONf7ABU0dV6BquZLAMRNgcgqKmIbtA=&xsec_source=pc_feed
+                  - img [ref=e269]
+                  - generic [ref=e270]: Bowen_qiao
+                - generic [ref=e271] [cursor=pointer]:
+                  - img [ref=e273]
+                  - generic [ref=e275]: "3"
+          - generic [ref=e277]:
+            - link [ref=e278] [cursor=pointer]:
+              - /url: /explore/69f588290000000020038f54?xsec_token=AB4BuYhQutimy3ra4-43skyLGc9Gpz04P6szvHZp3feWI=&xsec_source=
+              - img [ref=e279]
+            - generic [ref=e280]:
+              - link "dlx禁闭" [ref=e281] [cursor=pointer]:
+                - /url: /explore/69f588290000000020038f54?xsec_token=AB4BuYhQutimy3ra4-43skyLGc9Gpz04P6szvHZp3feWI=&xsec_source=
+              - generic [ref=e282]:
+                - link "只喔卓" [ref=e283] [cursor=pointer]:
+                  - /url: /user/profile/63be3d520000000027029475?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABXkWpIkQ_ntfzyvcGFpAqQeKbGwVGwzYiKXC3JqoVJIU=&xsec_source=pc_feed
+                  - img [ref=e285]
+                  - generic [ref=e286]: 只喔卓
+                - generic [ref=e287] [cursor=pointer]:
+                  - img [ref=e289]
+                  - generic [ref=e291]: "6"
+          - generic [ref=e293]:
+            - link [ref=e294] [cursor=pointer]:
+              - /url: /explore/69f6378900000000350236c0?xsec_token=AB1kDt6B4fnYttSahh57wCRcHbWbeEjrijPKmTbxlkhBU=&xsec_source=
+              - img [ref=e295]
+            - generic [ref=e296]:
+              - link "五一遛娃不想排队 可到青马乐园一玩" [ref=e297] [cursor=pointer]:
+                - /url: /explore/69f6378900000000350236c0?xsec_token=AB1kDt6B4fnYttSahh57wCRcHbWbeEjrijPKmTbxlkhBU=&xsec_source=
+              - generic [ref=e298]:
+                - link "爱吃小蛋糕" [ref=e299] [cursor=pointer]:
+                  - /url: /user/profile/5e0f35db000000000100bbe2?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABI5uSkO8cs2lY9Nw0Ltt5VrkkKDQ505BGAB7ve9dR9zs=&xsec_source=pc_feed
+                  - img [ref=e301]
+                  - generic [ref=e302]: 爱吃小蛋糕
+                - img [ref=e305] [cursor=pointer]
+          - generic [ref=e308]:
+            - link [ref=e309] [cursor=pointer]:
+              - /url: /explore/69dfee7d000000001e00fc3d?xsec_token=ABcf5ERh3zKEaT-NTI_R0TCgxOVdPkU6wSpuY0yIWHMeM=&xsec_source=
+              - img [ref=e310]
+              - img [ref=e312]
+            - generic [ref=e314]:
+              - link "张敏颜值变化" [ref=e315] [cursor=pointer]:
+                - /url: /explore/69dfee7d000000001e00fc3d?xsec_token=ABcf5ERh3zKEaT-NTI_R0TCgxOVdPkU6wSpuY0yIWHMeM=&xsec_source=
+              - generic [ref=e316]:
+                - link "乐可可" [ref=e317] [cursor=pointer]:
+                  - /url: /user/profile/65f87b92000000000600c2b5?channel_type=explore_feed&parent_page_channel_type=web_profile_board&xsec_token=ABHbcxomhr4FQn6lG4fEsXUkraEa9_mkhjAkAf3i93mTg=&xsec_source=pc_feed
+                  - img [ref=e319]
+                  - generic [ref=e320]: 乐可可
+                - generic [ref=e321] [cursor=pointer]:
+                  - img [ref=e323]
+                  - generic [ref=e325]: "466"
+          - generic [ref=e326]:
+            - img [ref=e330] [cursor=pointer]
+            - img [ref=e334] [cursor=pointer]
+  - generic [ref=e336]:
+    - generic [ref=e337]:
+      - button [ref=e340] [cursor=pointer]:
+        - img [ref=e342]
+      - generic [ref=e344]: 活动
+      - generic [ref=e345]:
+        - button [ref=e347] [cursor=pointer]:
+          - img [ref=e349]
+        - button [ref=e351] [cursor=pointer]:
+          - img [ref=e353]
+        - button [ref=e355] [cursor=pointer]:
+          - img [ref=e357]
+    - iframe [ref=e359]:
+      

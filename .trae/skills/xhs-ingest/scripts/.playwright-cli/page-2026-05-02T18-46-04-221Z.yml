@@ -1,0 +1,473 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /explore?channel_type=web_board_page
+          - img
+        - generic [ref=e7]:
+          - textbox [ref=e8]:
+            - /placeholder: 搜索小红书
+          - textbox "搜索小红书" [ref=e9]
+          - generic [ref=e10]:
+            - img [ref=e12]
+            - img [ref=e15] [cursor=pointer]
+        - generic [ref=e19]:
+          - button "创作中心" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 创作中心
+          - button "业务合作" [ref=e25] [cursor=pointer]:
+            - generic [ref=e27]: 业务合作
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - list [ref=e30]:
+            - generic [ref=e31]:
+              - listitem [ref=e32] [cursor=pointer]:
+                - link "发现" [ref=e33]:
+                  - /url: /explore?channel_id=homefeed_recommend
+                  - img [ref=e34]
+                  - generic [ref=e36]: 发现
+              - listitem [ref=e37] [cursor=pointer]:
+                - link "直播" [ref=e38]:
+                  - /url: /livelist?channel_id=0&channel_type=web_live_list
+                  - img [ref=e39]
+                  - generic [ref=e41]: 直播
+              - listitem [ref=e42] [cursor=pointer]:
+                - link "发布" [ref=e43]:
+                  - /url: https://creator.xiaohongshu.com/publish/publish?source=official
+                  - img [ref=e44]
+                  - generic [ref=e46]: 发布
+              - listitem [ref=e47] [cursor=pointer]:
+                - link "通知" [ref=e48]:
+                  - /url: /notification
+                  - img [ref=e50]
+                  - generic [ref=e52]: 通知
+              - listitem [ref=e53] [cursor=pointer]:
+                - link "我" [ref=e55]:
+                  - /url: /user/profile/608286f10000000001009ad1
+                  - img [ref=e59]
+                  - generic [ref=e62]: 我
+            - generic [ref=e63]:
+              - paragraph [ref=e64]:
+                - link "沪ICP备13030189号" [ref=e65] [cursor=pointer]:
+                  - /url: //beian.miit.gov.cn/
+                - text: "|"
+                - link "营业执照" [ref=e66] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+                - text: "|"
+                - link "2024沪公网安备31010102002533号" [ref=e67] [cursor=pointer]:
+                  - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+                - text: "|"
+                - link "增值电信业务经营许可证：沪B2-20150021" [ref=e68] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+                - text: "|"
+                - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e69] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+                - text: "|"
+                - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e70] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+                - text: "|"
+                - link "违法不良信息举报电话：4006676810" [ref=e71] [cursor=pointer]:
+                  - /url: //www.shjbzx.cn
+                - text: "|"
+                - link "上海市互联网举报中心" [ref=e72] [cursor=pointer]:
+                  - /url: //www.shjbzx.cn
+                - text: "|"
+                - link "网上有害信息举报专区" [ref=e73] [cursor=pointer]:
+                  - /url: //www.12377.cn
+                - text: "|"
+                - link "自营经营者信息" [ref=e74] [cursor=pointer]:
+                  - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+                - text: "|"
+                - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e75] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+                - text: "|"
+                - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e76] [cursor=pointer]:
+                  - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+              - generic [ref=e77]:
+                - paragraph [ref=e78]: © 2014-2026
+                - paragraph [ref=e79]: 行吟信息科技（上海）有限公司
+                - paragraph [ref=e80]: 地址：上海市黄浦区马当路388号C座
+                - paragraph [ref=e81]: 电话：9501-3888
+          - generic [ref=e83]:
+            - generic [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - text: 更多
+            - generic [ref=e87]:
+              - paragraph [ref=e88]:
+                - link "沪ICP备13030189号" [ref=e89] [cursor=pointer]:
+                  - /url: //beian.miit.gov.cn/
+                - text: "|"
+                - link "营业执照" [ref=e90] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+                - text: "|"
+                - link "2024沪公网安备31010102002533号" [ref=e91] [cursor=pointer]:
+                  - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+                - text: "|"
+                - link "增值电信业务经营许可证：沪B2-20150021" [ref=e92] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+                - text: "|"
+                - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e93] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+                - text: "|"
+                - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e94] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+                - text: "|"
+                - link "违法不良信息举报电话：4006676810" [ref=e95] [cursor=pointer]:
+                  - /url: //www.shjbzx.cn
+                - text: "|"
+                - link "上海市互联网举报中心" [ref=e96] [cursor=pointer]:
+                  - /url: //www.shjbzx.cn
+                - text: "|"
+                - link "网上有害信息举报专区" [ref=e97] [cursor=pointer]:
+                  - /url: //www.12377.cn
+                - text: "|"
+                - link "自营经营者信息" [ref=e98] [cursor=pointer]:
+                  - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+                - text: "|"
+                - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e99] [cursor=pointer]:
+                  - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+                - text: "|"
+                - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e100] [cursor=pointer]:
+                  - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: © 2014-2026
+                - paragraph [ref=e103]: 行吟信息科技（上海）有限公司
+                - paragraph [ref=e104]: 地址：上海市黄浦区马当路388号C座
+                - paragraph [ref=e105]: 电话：9501-3888
+        - generic [ref=e107]:
+          - link "我的收藏" [ref=e111] [cursor=pointer]:
+            - /url: /user/profile/608286f10000000001009ad1?tab=fav&subTab=board
+            - img [ref=e113]
+            - generic [ref=e115]: 我的收藏
+          - generic [ref=e116]:
+            - generic [ref=e117]: AI概念学习
+            - generic [ref=e118]: 暂无简介
+            - generic [ref=e119]:
+              - generic [ref=e120] [cursor=pointer]:
+                - img [ref=e124]
+                - text: 星空
+              - generic [ref=e127]:
+                - text: 笔记・112
+                - generic [ref=e128]: 粉丝・0
+            - generic [ref=e129] [cursor=pointer]: 编辑专辑
+          - generic [ref=e132]:
+            - generic [ref=e134]:
+              - link [ref=e135] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69f333b9000000003503206b?xsec_token=ABlLq-YI-4tgpSCrB0-cNA8pWYUIAv5SWOy91Yk6Qh78w=&xsec_source=pc_user
+                - img [ref=e136]
+                - img [ref=e138]
+              - generic [ref=e140]:
+                - link "5060的显存，竟然被我扩容到了40GB" [ref=e141] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69f333b9000000003503206b?xsec_token=ABlLq-YI-4tgpSCrB0-cNA8pWYUIAv5SWOy91Yk6Qh78w=&xsec_source=pc_user
+                - generic [ref=e142]:
+                  - link "华硕ProArt" [ref=e143] [cursor=pointer]:
+                    - /url: /user/profile/5543bca24fac636069ee50c1?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABYV6q4APOmnwE9Xeok4rOPTFP-PpMmWg44YoCxspKowQ=&xsec_source=pc_board
+                    - img [ref=e145]
+                    - generic [ref=e146]: 华硕ProArt
+                  - generic [ref=e147] [cursor=pointer]:
+                    - img [ref=e149]
+                    - generic [ref=e151]: "408"
+            - generic [ref=e153]:
+              - link [ref=e154] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69e95785000000002300755c?xsec_token=ABJKRzawie8kcrWlgL7YmEpj2uaQAgiiqCQKfqtuNc-fI=&xsec_source=pc_user
+                - img [ref=e155]
+              - generic [ref=e156]:
+                - link "GBrain：AI智能体知识记忆系统" [active] [ref=e157] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69e95785000000002300755c?xsec_token=ABJKRzawie8kcrWlgL7YmEpj2uaQAgiiqCQKfqtuNc-fI=&xsec_source=pc_user
+                - generic [ref=e158]:
+                  - link "LLM- insights" [ref=e159] [cursor=pointer]:
+                    - /url: /user/profile/5fe5f0d6000000000101c6ac?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABPwbuMHDJNoyq9rPYw8hSfhyeSgms6YoZChzS6PPFCWg=&xsec_source=pc_board
+                    - img [ref=e161]
+                    - generic [ref=e162]: LLM- insights
+                  - generic [ref=e163] [cursor=pointer]:
+                    - img [ref=e165]
+                    - generic [ref=e167]: "56"
+            - generic [ref=e169]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69e8cb1400000000210383c8?xsec_token=ABR1NzB7nH_O-D4tqXQqYTVNZmaAuMHW8cWUBZn2BpkqM=&xsec_source=pc_user
+                - img [ref=e171]
+                - img [ref=e173]
+              - generic [ref=e175]:
+                - link "LLM Wiki 和 GBrain 真正的差别，不是谁检索更强。" [ref=e176] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69e8cb1400000000210383c8?xsec_token=ABR1NzB7nH_O-D4tqXQqYTVNZmaAuMHW8cWUBZn2BpkqM=&xsec_source=pc_user
+                - generic [ref=e177]:
+                  - link "Frank的Agent实验室" [ref=e178] [cursor=pointer]:
+                    - /url: /user/profile/637d7ca6000000001f0177bd?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=AB2nlQ-OdO99YLM1S_fg86KZ9X7erwHoIf8bsVCHRt2BU=&xsec_source=pc_board
+                    - img [ref=e180]
+                    - generic [ref=e181]: Frank的Agent实验室
+                  - generic [ref=e182] [cursor=pointer]:
+                    - img [ref=e184]
+                    - generic [ref=e186]: "1102"
+            - generic [ref=e188]:
+              - link [ref=e189] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69f03d95000000001b022b08?xsec_token=ABwzJui5xXry8P88NejnRVXUgDhgieX5LV2-W7ACtWJdM=&xsec_source=pc_user
+                - img [ref=e190]
+              - generic [ref=e191]:
+                - link "70套Design.md设计系统规范" [ref=e192] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69f03d95000000001b022b08?xsec_token=ABwzJui5xXry8P88NejnRVXUgDhgieX5LV2-W7ACtWJdM=&xsec_source=pc_user
+                - generic [ref=e193]:
+                  - link "Clip设计夹" [ref=e194] [cursor=pointer]:
+                    - /url: /user/profile/5c0605276b58b76a1ae53478?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABHm7R5NfwtC-WwAPjgBoRVZhGj9eQDhAKAfZkIDxeBbo=&xsec_source=pc_board
+                    - img [ref=e196]
+                    - generic [ref=e197]: Clip设计夹
+                  - generic [ref=e198] [cursor=pointer]:
+                    - img [ref=e200]
+                    - generic [ref=e202]: "393"
+            - generic [ref=e204]:
+              - link [ref=e205] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69f003fc000000002301ed53?xsec_token=ABwzJui5xXry8P88NejnRVXX-HQCmdil4SWCvLmNgzHWg=&xsec_source=pc_user
+                - img [ref=e206]
+              - generic [ref=e207]:
+                - link "面了个Java转AI Agent方向的半吊子 真的..." [ref=e208] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69f003fc000000002301ed53?xsec_token=ABwzJui5xXry8P88NejnRVXX-HQCmdil4SWCvLmNgzHWg=&xsec_source=pc_user
+                - generic [ref=e209]:
+                  - link "AI践行者聚一" [ref=e210] [cursor=pointer]:
+                    - /url: /user/profile/69a1414e000000001d01b52f?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=AB4mdegLfuocljIasbNgsm8s2pzQv_50IUw_J1xtfZ5ho=&xsec_source=pc_board
+                    - img [ref=e212]
+                    - generic [ref=e213]: AI践行者聚一
+                  - generic [ref=e214] [cursor=pointer]:
+                    - img [ref=e216]
+                    - generic [ref=e218]: "26"
+            - generic [ref=e220]:
+              - link [ref=e221] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69b2aad100000000080317e9?xsec_token=ABjk896ut1ehgxQbKtqbTucPM889HbQVqji9SuUtNPflg=&xsec_source=pc_user
+                - img [ref=e222]
+                - img [ref=e224]
+              - generic [ref=e226]:
+                - link "AI应用开发面试真题之python环境如何管理" [ref=e227] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69b2aad100000000080317e9?xsec_token=ABjk896ut1ehgxQbKtqbTucPM889HbQVqji9SuUtNPflg=&xsec_source=pc_user
+                - generic [ref=e228]:
+                  - link "懂王Ai" [ref=e229] [cursor=pointer]:
+                    - /url: /user/profile/5d41064b000000001003e85d?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABs051XWOvL3l173MRQmLk8wi8XAJyFI6AthJjalmcO5Y=&xsec_source=pc_board
+                    - img [ref=e231]
+                    - generic [ref=e232]: 懂王Ai
+                  - generic [ref=e233] [cursor=pointer]:
+                    - img [ref=e235]
+                    - generic [ref=e237]: "450"
+            - generic [ref=e239]:
+              - link [ref=e240] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69de3363000000001e00dc24?xsec_token=ABfrGKpoxFjQiDVI9ubBpw9sC9Moxsih4avREAF6uT4Ic=&xsec_source=pc_user
+                - img [ref=e241]
+              - generic [ref=e242]:
+                - link "清华开源AI看懂K线！准确率超93%" [ref=e243] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69de3363000000001e00dc24?xsec_token=ABfrGKpoxFjQiDVI9ubBpw9sC9Moxsih4avREAF6uT4Ic=&xsec_source=pc_user
+                - generic [ref=e244]:
+                  - link "天梦君" [ref=e245] [cursor=pointer]:
+                    - /url: /user/profile/60f2393100000000010038a1?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABtpxnhrn-KEP-yHOoVwiJxEeBwfv5o0yG9uJOznvCjgI=&xsec_source=pc_board
+                    - img [ref=e247]
+                    - generic [ref=e248]: 天梦君
+                  - generic [ref=e249] [cursor=pointer]:
+                    - img [ref=e251]
+                    - generic [ref=e253]: "38"
+            - generic [ref=e255]:
+              - link [ref=e256] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69e209a4000000001f001637?xsec_token=AB-Wa3z5HLeR8XLnP58KXXssdYCaEtFUykmrD0x773Qwc=&xsec_source=pc_user
+                - img [ref=e257]
+              - generic [ref=e258]:
+                - link "放弃 Hermes，我切到 AutoClaw 了" [ref=e259] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69e209a4000000001f001637?xsec_token=AB-Wa3z5HLeR8XLnP58KXXssdYCaEtFUykmrD0x773Qwc=&xsec_source=pc_user
+                - generic [ref=e260]:
+                  - link "阿东玩AI" [ref=e261] [cursor=pointer]:
+                    - /url: /user/profile/5f310fd50000000001009df5?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABnvBxmLselCVxuZmwFChjTRDYm7lS7nG4iIa-fYY05WA=&xsec_source=pc_board
+                    - img [ref=e263]
+                    - generic [ref=e264]: 阿东玩AI
+                  - generic [ref=e265] [cursor=pointer]:
+                    - img [ref=e267]
+                    - generic [ref=e269]: "395"
+            - generic [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/637cc220000000000e0314ab?xsec_token=ABWD4mmLUHY7J7uFFN2ZC3u5s_3t614lonWZJGFugeqJ0=&xsec_source=pc_user
+                - img [ref=e273]
+                - img [ref=e275]
+              - generic [ref=e277]:
+                - link "3分钟精通windows沙盒Sandbox及自定义配置" [ref=e278] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/637cc220000000000e0314ab?xsec_token=ABWD4mmLUHY7J7uFFN2ZC3u5s_3t614lonWZJGFugeqJ0=&xsec_source=pc_user
+                - generic [ref=e279]:
+                  - link "红头发蓝胖子" [ref=e280] [cursor=pointer]:
+                    - /url: /user/profile/5fea971d000000000100738d?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABFbvkaaJ-rttHRImCeA4M_h8hmqssDti-VOzpasKK44A=&xsec_source=pc_board
+                    - img [ref=e282]
+                    - generic [ref=e283]: 红头发蓝胖子
+                  - generic [ref=e284] [cursor=pointer]:
+                    - img [ref=e286]
+                    - generic [ref=e288]: "784"
+            - generic [ref=e290]:
+              - link [ref=e291] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/6867b88f000000001c031e53?xsec_token=ABcZvtCidjKrag-UcuRN9pKu2SeynEBFPeDwg9dhcxy9M=&xsec_source=pc_user
+                - img [ref=e292]
+              - generic [ref=e293]:
+                - link "Daytona — 安全弹性的 AI 代码运行基础设施" [ref=e294] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/6867b88f000000001c031e53?xsec_token=ABcZvtCidjKrag-UcuRN9pKu2SeynEBFPeDwg9dhcxy9M=&xsec_source=pc_user
+                - generic [ref=e295]:
+                  - link "无糖AI" [ref=e296] [cursor=pointer]:
+                    - /url: /user/profile/5c2824d3000000000600753e?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABneKzDl5od_yYaXElm7tq6L0-5fsihH7mP0ov5oQdAOg=&xsec_source=pc_board
+                    - img [ref=e298]
+                    - generic [ref=e299]: 无糖AI
+                  - generic [ref=e300] [cursor=pointer]:
+                    - img [ref=e302]
+                    - generic [ref=e304]: "52"
+            - generic [ref=e306]:
+              - link [ref=e307] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69ecaa6700000000370360e8?xsec_token=ABxO90NDLwXiHmB9nXRAJ9QCHo0objbHxvDs22RyNMjCM=&xsec_source=pc_user
+                - img [ref=e308]
+              - generic [ref=e309]:
+                - link "agent 连 sandbox · 只有两种模式" [ref=e310] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69ecaa6700000000370360e8?xsec_token=ABxO90NDLwXiHmB9nXRAJ9QCHo0objbHxvDs22RyNMjCM=&xsec_source=pc_user
+                - generic [ref=e311]:
+                  - link "奥森木" [ref=e312] [cursor=pointer]:
+                    - /url: /user/profile/666dce3e000000000d025a37?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABuJPB8J9fr7LQC4YnZVDf6YdoSkb4g71oTd1cQo2mjHM=&xsec_source=pc_board
+                    - img [ref=e314]
+                    - generic [ref=e315]: 奥森木
+                  - generic [ref=e316] [cursor=pointer]:
+                    - img [ref=e318]
+                    - generic [ref=e320]: "338"
+            - generic [ref=e322]:
+              - link [ref=e323] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69ecf2cd0000000035020e35?xsec_token=ABxO90NDLwXiHmB9nXRAJ9QIYHx1STA10NUIrVofgFF6k=&xsec_source=pc_user
+                - img [ref=e324]
+                - img [ref=e326]
+              - generic [ref=e328]:
+                - link "离谱，Qwen3.6 27B生成速度飙到184t/s" [ref=e329] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69ecf2cd0000000035020e35?xsec_token=ABxO90NDLwXiHmB9nXRAJ9QIYHx1STA10NUIrVofgFF6k=&xsec_source=pc_user
+                - generic [ref=e330]:
+                  - link "小天fotos" [ref=e331] [cursor=pointer]:
+                    - /url: /user/profile/5b208f0511be100f9c278b53?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=AB-FmSXFX7pvgPhlxKf4rLegGiSvYgY7qSzS7O_etO58o=&xsec_source=pc_board
+                    - img [ref=e333]
+                    - generic [ref=e334]: 小天fotos
+                  - generic [ref=e335] [cursor=pointer]:
+                    - img [ref=e337]
+                    - generic [ref=e339]: "858"
+            - generic [ref=e341]:
+              - link [ref=e342] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69eab884000000001f031002?xsec_token=AB3a7lgmnUIBx3K7d65bIhEn2l5V9-z69sU4Adsz4AusQ=&xsec_source=pc_user
+                - img [ref=e343]
+              - generic [ref=e344]:
+                - link "当本地模型强如Opus，本地部署就成为了刚需" [ref=e345] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69eab884000000001f031002?xsec_token=AB3a7lgmnUIBx3K7d65bIhEn2l5V9-z69sU4Adsz4AusQ=&xsec_source=pc_user
+                - generic [ref=e346]:
+                  - link "Seven Sea" [ref=e347] [cursor=pointer]:
+                    - /url: /user/profile/60275c93000000000100a503?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABD8CjkBmW7cvYIk44GB9CCa7jUKjEXOkejFw7V2Nnmzw=&xsec_source=pc_board
+                    - img [ref=e349]
+                    - generic [ref=e350]: Seven Sea
+                  - generic [ref=e351] [cursor=pointer]:
+                    - img [ref=e353]
+                    - generic [ref=e355]: "146"
+            - generic [ref=e357]:
+              - link [ref=e358] [cursor=pointer]:
+                - /url: /board/698f3a82000000002502ef57/69da0550000000001f0007b2?xsec_token=AB7gU0hDouqCVjryeyF9A5LQ9umTq1ETK9NvqyjbohyZ0=&xsec_source=pc_user
+                - img [ref=e359]
+                - img [ref=e361]
+              - generic [ref=e363]:
+                - link "花点时间学AI, 谷歌Stitch 0- 1完整教程" [ref=e364] [cursor=pointer]:
+                  - /url: /board/698f3a82000000002502ef57/69da0550000000001f0007b2?xsec_token=AB7gU0hDouqCVjryeyF9A5LQ9umTq1ETK9NvqyjbohyZ0=&xsec_source=pc_user
+                - generic [ref=e365]:
+                  - link "瑞哥那" [ref=e366] [cursor=pointer]:
+                    - /url: /user/profile/64bb2c95000000001403c24c?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=ABGg6wvpDD16IU135REjlTccYRz5m0P4jcNoejzKJpkI4=&xsec_source=pc_board
+                    - img [ref=e368]
+                    - generic [ref=e369]: 瑞哥那
+                  - generic [ref=e370] [cursor=pointer]:
+                    - img [ref=e372]
+                    - generic [ref=e374]: "2661"
+            - generic [ref=e375]:
+              - generic:
+                - generic:
+                  - img
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - button [ref=e380] [cursor=pointer]:
+          - img [ref=e382]
+        - generic [ref=e384]: 活动
+        - generic [ref=e385]:
+          - button [ref=e387] [cursor=pointer]:
+            - img [ref=e389]
+          - button [ref=e391] [cursor=pointer]:
+            - img [ref=e393]
+          - button [ref=e395] [cursor=pointer]:
+            - img [ref=e397]
+      - iframe [ref=e399]:
+        
+  - generic [ref=e400]:
+    - generic [ref=e401]:
+      - generic [ref=e404]:
+        - generic [ref=e406]:
+          - img [ref=e410]
+          - img [ref=e414]
+          - img [ref=e418]
+          - img [ref=e422]
+          - img [ref=e426]
+          - img [ref=e430]
+          - img [ref=e434]
+          - img [ref=e438]
+          - img [ref=e442]
+          - img [ref=e446]
+        - generic [ref=e447]: 1/8
+        - img [ref=e450]
+        - img [ref=e454] [cursor=pointer]
+      - generic [ref=e473]:
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - link [ref=e479] [cursor=pointer]:
+              - /url: /user/profile/5fe5f0d6000000000101c6ac?channel_type=web_board_page&xsec_token=AB2jPSYoFB4vB1YXRqlKfmeKIvJujrAl9Za6j_LKIHVAk%3D&xsec_source=pc_note
+              - img [ref=e480]
+            - link "LLM- insights" [ref=e481] [cursor=pointer]:
+              - /url: /user/profile/5fe5f0d6000000000101c6ac?channel_type=web_board_page&parent_page_channel_type=web_profile_board&xsec_token=AB2jPSYoFB4vB1YXRqlKfmeKIvJujrAl9Za6j_LKIHVAk=&xsec_source=pc_note
+              - generic [ref=e482]: LLM- insights
+          - button "关注" [ref=e484] [cursor=pointer]:
+            - generic [ref=e486]: 关注
+        - generic [ref=e487]:
+          - generic [ref=e488]:
+            - generic [ref=e489]: GBrain：AI智能体知识记忆系统
+            - generic [ref=e491]:
+              - text: GBrain是Garry Tan推出的开源项目，为AI智能体提供持久记忆解决方案，支持跨会话记忆、确定性任务执行和知识图谱构建，适用于企业知识助手、多智能体协作和个人研究型智能体，提升效率并降低维护成本。
+              - link "#GBrain" [ref=e492] [cursor=pointer]:
+                - /url: /search_result?keyword=GBrain&type=54&source=web_note_detail_r10
+              - link "#AI智能体" [ref=e493] [cursor=pointer]:
+                - /url: /search_result?keyword=AI%25E6%2599%25BA%25E8%2583%25BD%25E4%25BD%2593&type=54&source=web_note_detail_r10
+              - link "#开源项目" [ref=e494] [cursor=pointer]:
+                - /url: /search_result?keyword=%25E5%25BC%2580%25E6%25BA%2590%25E9%25A1%25B9%25E7%259B%25AE&type=54&source=web_note_detail_r10
+              - link "#知识图谱" [ref=e495] [cursor=pointer]:
+                - /url: /search_result?keyword=%25E7%259F%25A5%25E8%25AF%2586%25E5%259B%25BE%25E8%25B0%25B1&type=54&source=web_note_detail_r10
+              - link "#Agent记忆" [ref=e496] [cursor=pointer]:
+                - /url: /search_result?keyword=Agent%25E8%25AE%25B0%25E5%25BF%2586&type=54&source=web_note_detail_r10
+              - link "#RAG进阶" [ref=e497] [cursor=pointer]:
+                - /url: /search_result?keyword=RAG%25E8%25BF%259B%25E9%2598%25B6&type=54&source=web_note_detail_r10
+              - link "#智能体工程" [ref=e498] [cursor=pointer]:
+                - /url: /search_result?keyword=%25E6%2599%25BA%25E8%2583%25BD%25E4%25BD%2593%25E5%25B7%25A5%25E7%25A8%258B&type=54&source=web_note_detail_r10
+              - link "#持久化记忆" [ref=e499] [cursor=pointer]:
+                - /url: /search_result?keyword=%25E6%258C%2581%25E4%25B9%2585%25E5%258C%2596%25E8%25AE%25B0%25E5%25BF%2586&type=54&source=web_note_detail_r10
+              - link "#GarryTan" [ref=e500] [cursor=pointer]:
+                - /url: /search_result?keyword=GarryTan&type=54&source=web_note_detail_r10
+              - link "#生产级智能体" [ref=e501] [cursor=pointer]:
+                - /url: /search_result?keyword=%25E7%2594%259F%25E4%25BA%25A7%25E7%25BA%25A7%25E6%2599%25BA%25E8%2583%25BD%25E4%25BD%2593&type=54&source=web_note_detail_r10
+            - generic [ref=e502]:
+              - generic [ref=e503]: 04-23 日本
+              - img [ref=e507] [cursor=pointer]
+          - generic [ref=e511]:
+            - img [ref=e512]
+            - paragraph [ref=e513]: 这是一片荒地点击评论
+        - generic [ref=e516]:
+          - generic [ref=e517]:
+            - generic [ref=e518]:
+              - paragraph [ref=e519]
+              - generic [ref=e522]: 说点什么...
+            - generic [ref=e524]:
+              - generic [ref=e525]:
+                - generic [ref=e526] [cursor=pointer]:
+                  - img [ref=e528]
+                  - generic [ref=e530]: "56"
+                - generic [ref=e531] [cursor=pointer]:
+                  - img [ref=e532]
+                  - generic [ref=e534]: "86"
+                - generic [ref=e535] [cursor=pointer]:
+                  - img [ref=e536]
+                  - generic [ref=e538]: 评论
+              - generic [ref=e540] [cursor=pointer]:
+                - img [ref=e541]
+                - img [ref=e543]
+          - generic [ref=e545]:
+            - generic [ref=e546]:
+              - img [ref=e548] [cursor=pointer]
+              - img [ref=e551] [cursor=pointer]
+            - generic [ref=e553]:
+              - button "发送" [disabled] [ref=e554] [cursor=pointer]
+              - button "取消" [ref=e555] [cursor=pointer]
+    - img [ref=e558] [cursor=pointer]

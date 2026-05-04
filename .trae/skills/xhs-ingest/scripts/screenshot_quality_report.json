@@ -1,0 +1,2361 @@
+{
+  "total_notes": 59,
+  "problematic_notes_count": 54,
+  "problematic_notes": [
+    {
+      "note_id": "637cc220000000000e0314ab",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "637cc220000000000e0314ab_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "67072e1c000000001a0231c6",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "67072e1c000000001a0231c6_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67072e1c000000001a0231c6_slide2.png",
+          "issues": [
+            "mostly_blank (亮度245.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67072e1c000000001a0231c6_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67072e1c000000001a0231c6_slide4.png",
+          "issues": [
+            "mostly_blank (亮度245.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67072e1c000000001a0231c6_slide5.png",
+          "issues": [
+            "mostly_blank (亮度245.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67072e1c000000001a0231c6_slide6.png",
+          "issues": [
+            "mostly_blank (亮度245.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "67f06ae2000000001d01bf88",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "67f06ae2000000001d01bf88_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67f06ae2000000001d01bf88_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67f06ae2000000001d01bf88_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67f06ae2000000001d01bf88_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67f06ae2000000001d01bf88_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67f06ae2000000001d01bf88_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "67fdb8aa000000001b026b78",
+      "total_screenshots": 17,
+      "problematic_screenshots": 17,
+      "details": [
+        {
+          "file": "67fdb8aa000000001b026b78_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide10.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide11.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide12.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide13.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide14.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide15.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide16.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide17.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide3.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide4.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide5.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide6.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide7.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide8.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "67fdb8aa000000001b026b78_slide9.png",
+          "issues": [
+            "mostly_blank (亮度251.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "681f895f0000000012001a76",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "681f895f0000000012001a76_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "682ce0cb000000000f0320e7",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "682ce0cb000000000f0320e7_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "682fcff3000000002100f477",
+      "total_screenshots": 2,
+      "problematic_screenshots": 2,
+      "details": [
+        {
+          "file": "682fcff3000000002100f477_slide1.png",
+          "issues": [
+            "mostly_blank (亮度248.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "682fcff3000000002100f477_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "684745e1000000002300d22c",
+      "total_screenshots": 3,
+      "problematic_screenshots": 3,
+      "details": [
+        {
+          "file": "684745e1000000002300d22c_slide1.png",
+          "issues": [
+            "mostly_blank (亮度248.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "684745e1000000002300d22c_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "684745e1000000002300d22c_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "685030ee000000002002972d",
+      "total_screenshots": 14,
+      "problematic_screenshots": 14,
+      "details": [
+        {
+          "file": "685030ee000000002002972d_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide10.png",
+          "issues": [
+            "mostly_blank (亮度245.6)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide11.png",
+          "issues": [
+            "mostly_blank (亮度246.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide12.png",
+          "issues": [
+            "mostly_blank (亮度246.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide13.png",
+          "issues": [
+            "mostly_blank (亮度246.1)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide14.png",
+          "issues": [
+            "mostly_blank (亮度245.7)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide2.png",
+          "issues": [
+            "mostly_blank (亮度246.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide3.png",
+          "issues": [
+            "mostly_blank (亮度246.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide4.png",
+          "issues": [
+            "mostly_blank (亮度247.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide5.png",
+          "issues": [
+            "mostly_blank (亮度246.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide6.png",
+          "issues": [
+            "mostly_blank (亮度246.6)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide7.png",
+          "issues": [
+            "mostly_blank (亮度246.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide8.png",
+          "issues": [
+            "mostly_blank (亮度247.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "685030ee000000002002972d_slide9.png",
+          "issues": [
+            "mostly_blank (亮度245.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "6867b88f000000001c031e53",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "6867b88f000000001c031e53_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6867b88f000000001c031e53_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "68c27744000000001d0097a4",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "68c27744000000001d0097a4_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "68f74e330000000007036835",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "68f74e330000000007036835_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "692b1704000000001f00aa4e",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "692b1704000000001f00aa4e_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "692b1704000000001f00aa4e_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "692b1704000000001f00aa4e_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "692b1704000000001f00aa4e_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "692b1704000000001f00aa4e_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "692b1704000000001f00aa4e_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "6942489e000000001e008858",
+      "total_screenshots": 4,
+      "problematic_screenshots": 4,
+      "details": [
+        {
+          "file": "6942489e000000001e008858_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.6)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6942489e000000001e008858_slide2.png",
+          "issues": [
+            "mostly_blank (亮度249.1)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6942489e000000001e008858_slide3.png",
+          "issues": [
+            "mostly_blank (亮度249.8)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "6942489e000000001e008858_slide4.png",
+          "issues": [
+            "mostly_blank (亮度249.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69533564000000001e026b19",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69533564000000001e026b19_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "697b54b0000000002103d9dc",
+      "total_screenshots": 2,
+      "problematic_screenshots": 2,
+      "details": [
+        {
+          "file": "697b54b0000000002103d9dc_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "697b54b0000000002103d9dc_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69800f370000000021029592",
+      "total_screenshots": 22,
+      "problematic_screenshots": 22,
+      "details": [
+        {
+          "file": "69800f370000000021029592_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide10.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide11.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide12.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide13.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide14.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide15.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide16.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide17.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide18.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide19.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide20.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide21.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide22.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide3.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide4.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide5.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide6.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide7.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide8.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69800f370000000021029592_slide9.png",
+          "issues": [
+            "mostly_blank (亮度251.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "698095c80000000022033213",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "698095c80000000022033213_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "6982b870000000002801d3d9",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "6982b870000000002801d3d9_slide1.png",
+          "issues": [
+            "mostly_blank (亮度248.6)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "698a77f3000000001502384f",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "698a77f3000000001502384f_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69ad811d000000002800b7a1",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69ad811d000000002800b7a1_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69aed077000000002602eda2",
+      "total_screenshots": 2,
+      "problematic_screenshots": 2,
+      "details": [
+        {
+          "file": "69aed077000000002602eda2_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69aed077000000002602eda2_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b145c7000000002602f03d",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "69b145c7000000002602f03d_slide1.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide2.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide3.png",
+          "issues": [
+            "mostly_blank (亮度251.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide4.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide5.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide6.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide7.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide8.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b145c7000000002602f03d_slide9.png",
+          "issues": [
+            "mostly_blank (亮度250.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b2aad100000000080317e9",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69b2aad100000000080317e9_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b36373000000000800c4b4",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "69b36373000000000800c4b4_slide1.png",
+          "issues": [
+            "mostly_blank (亮度251.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b36373000000000800c4b4_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b36373000000000800c4b4_slide3.png",
+          "issues": [
+            "mostly_blank (亮度251.5)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b36373000000000800c4b4_slide4.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b36373000000000800c4b4_slide5.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b36373000000000800c4b4_slide6.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b3e4a5000000001f000e4d",
+      "total_screenshots": 10,
+      "problematic_screenshots": 10,
+      "details": [
+        {
+          "file": "69b3e4a5000000001f000e4d_slide1.png",
+          "issues": [
+            "mostly_blank (亮度250.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide10.png",
+          "issues": [
+            "mostly_blank (亮度250.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide2.png",
+          "issues": [
+            "mostly_blank (亮度251.9)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide3.png",
+          "issues": [
+            "mostly_blank (亮度250.1)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide4.png",
+          "issues": [
+            "mostly_blank (亮度250.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide5.png",
+          "issues": [
+            "mostly_blank (亮度250.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide6.png",
+          "issues": [
+            "mostly_blank (亮度250.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide7.png",
+          "issues": [
+            "mostly_blank (亮度250.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide8.png",
+          "issues": [
+            "mostly_blank (亮度250.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3e4a5000000001f000e4d_slide9.png",
+          "issues": [
+            "mostly_blank (亮度250.1)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b3fd7f000000001a025816",
+      "total_screenshots": 6,
+      "problematic_screenshots": 5,
+      "details": [
+        {
+          "file": "69b3fd7f000000001a025816_slide1.png",
+          "issues": [
+            "mostly_blank (亮度252.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3fd7f000000001a025816_slide3.png",
+          "issues": [
+            "mostly_blank (亮度252.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3fd7f000000001a025816_slide4.png",
+          "issues": [
+            "mostly_blank (亮度252.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3fd7f000000001a025816_slide5.png",
+          "issues": [
+            "mostly_blank (亮度252.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b3fd7f000000001a025816_slide6.png",
+          "issues": [
+            "mostly_blank (亮度252.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b50b92000000001a02e4ef",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69b50b92000000001a02e4ef_slide1.png",
+          "issues": [
+            "mostly_blank (亮度250.3)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69b82e5c000000002200c6a5",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "69b82e5c000000002200c6a5_slide1.png",
+          "issues": [
+            "mostly_blank (亮度246.6)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b82e5c000000002200c6a5_slide2.png",
+          "issues": [
+            "mostly_blank (亮度247.8)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b82e5c000000002200c6a5_slide3.png",
+          "issues": [
+            "mostly_blank (亮度248.4)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b82e5c000000002200c6a5_slide4.png",
+          "issues": [
+            "mostly_blank (亮度248.2)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b82e5c000000002200c6a5_slide5.png",
+          "issues": [
+            "mostly_blank (亮度248.0)",
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69b82e5c000000002200c6a5_slide6.png",
+          "issues": [
+            "mostly_blank (亮度247.8)",
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69bc5319000000001f003a36",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69bc5319000000001f003a36_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69bd0b2d0000000022026b96",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69bd0b2d0000000022026b96_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69beb0b70000000022029b6f",
+      "total_screenshots": 3,
+      "problematic_screenshots": 3,
+      "details": [
+        {
+          "file": "69beb0b70000000022029b6f_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69beb0b70000000022029b6f_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69beb0b70000000022029b6f_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69c141640000000023017ec4",
+      "total_screenshots": 29,
+      "problematic_screenshots": 29,
+      "details": [
+        {
+          "file": "69c141640000000023017ec4_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide10.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide11.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide12.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide13.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide14.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide15.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide16.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide17.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide18.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide19.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide20.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide21.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide22.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide23.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide24.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide25.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide26.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide27.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide28.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide29.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c141640000000023017ec4_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69c3c509000000001a0266bf",
+      "total_screenshots": 2,
+      "problematic_screenshots": 2,
+      "details": [
+        {
+          "file": "69c3c509000000001a0266bf_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c3c509000000001a0266bf_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69c9fd730000000023006ee5",
+      "total_screenshots": 8,
+      "problematic_screenshots": 8,
+      "details": [
+        {
+          "file": "69c9fd730000000023006ee5_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69c9fd730000000023006ee5_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69ca32b3000000001d01b2a8",
+      "total_screenshots": 4,
+      "problematic_screenshots": 4,
+      "details": [
+        {
+          "file": "69ca32b3000000001d01b2a8_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ca32b3000000001d01b2a8_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ca32b3000000001d01b2a8_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ca32b3000000001d01b2a8_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69cce981000000001f005a30",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69cce981000000001f005a30_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69cdfcf30000000023020128",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "69cdfcf30000000023020128_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cdfcf30000000023020128_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69ce23860000000022000f69",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69ce23860000000022000f69_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69cfabaa000000002202a4c1",
+      "total_screenshots": 7,
+      "problematic_screenshots": 7,
+      "details": [
+        {
+          "file": "69cfabaa000000002202a4c1_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69cfabaa000000002202a4c1_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69d0afb5000000002102fc4a",
+      "total_screenshots": 3,
+      "problematic_screenshots": 3,
+      "details": [
+        {
+          "file": "69d0afb5000000002102fc4a_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69d0afb5000000002102fc4a_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69d0afb5000000002102fc4a_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69d3678f000000001f000f66",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69d3678f000000001f000f66_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69da0550000000001f0007b2",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69da0550000000001f0007b2_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69dc6e2f000000002302437a",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "69dc6e2f000000002302437a_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69dc6e2f000000002302437a_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69dc6e2f000000002302437a_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69dc6e2f000000002302437a_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69dc6e2f000000002302437a_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69dc6e2f000000002302437a_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69de3363000000001e00dc24",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "69de3363000000001e00dc24_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69de3363000000001e00dc24_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69df880f000000001a0346d5",
+      "total_screenshots": 5,
+      "problematic_screenshots": 5,
+      "details": [
+        {
+          "file": "69df880f000000001a0346d5_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69df880f000000001a0346d5_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69df880f000000001a0346d5_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69df880f000000001a0346d5_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69df880f000000001a0346d5_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69e1fa8b0000000023026645",
+      "total_screenshots": 18,
+      "problematic_screenshots": 18,
+      "details": [
+        {
+          "file": "69e1fa8b0000000023026645_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide10.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide11.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide12.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide13.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide14.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide15.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide16.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide17.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide18.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69e1fa8b0000000023026645_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69e3de72000000001d018862",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69e3de72000000001d018862_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69e95785000000002300755c",
+      "total_screenshots": 8,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69e95785000000002300755c_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69eab884000000001f031002",
+      "total_screenshots": 6,
+      "problematic_screenshots": 6,
+      "details": [
+        {
+          "file": "69eab884000000001f031002_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69eab884000000001f031002_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69eab884000000001f031002_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69eab884000000001f031002_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69eab884000000001f031002_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69eab884000000001f031002_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69ecaa6700000000370360e8",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "69ecaa6700000000370360e8_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69ecaa6700000000370360e8_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69ecf2cd0000000035020e35",
+      "total_screenshots": 1,
+      "problematic_screenshots": 1,
+      "details": [
+        {
+          "file": "69ecf2cd0000000035020e35_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69f003fc000000002301ed53",
+      "total_screenshots": 9,
+      "problematic_screenshots": 9,
+      "details": [
+        {
+          "file": "69f003fc000000002301ed53_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f003fc000000002301ed53_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "note_id": "69f03d95000000001b022b08",
+      "total_screenshots": 35,
+      "problematic_screenshots": 35,
+      "details": [
+        {
+          "file": "69f03d95000000001b022b08_slide1.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide10.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide11.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide12.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide13.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide14.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide15.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide16.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide17.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide18.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide19.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide2.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide20.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide21.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide22.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide23.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide24.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide25.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide26.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide27.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide28.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide29.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide3.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide30.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide31.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide32.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide33.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide34.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide35.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide4.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide5.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide6.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide7.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide8.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        },
+        {
+          "file": "69f03d95000000001b022b08_slide9.png",
+          "issues": [
+            "底部空白 (亮度255.0)"
+          ]
+        }
+      ]
+    }
+  ]
+}

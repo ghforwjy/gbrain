@@ -1,0 +1,299 @@
+- generic [ref=e2]:
+  - generic [ref=e48]:
+    - banner [ref=e50]:
+      - link [ref=e51] [cursor=pointer]:
+        - /url: /explore
+        - img
+      - generic [ref=e52]:
+        - textbox [ref=e53]:
+          - /placeholder: 登录探索更多内容
+        - textbox "搜索小红书" [ref=e422]
+        - generic [ref=e55]:
+          - img [ref=e57]
+          - img [ref=e60] [cursor=pointer]
+      - generic [ref=e64]:
+        - button "创作中心" [ref=e66] [cursor=pointer]:
+          - generic [ref=e68]: 创作中心
+        - button "业务合作" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: 业务合作
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - generic [ref=e76]:
+            - listitem [ref=e77] [cursor=pointer]:
+              - link "发现" [ref=e78]:
+                - /url: /explore?channel_id=homefeed_recommend
+                - img [ref=e79]
+                - generic [ref=e81]: 发现
+            - listitem [ref=e82] [cursor=pointer]:
+              - link "直播" [ref=e83]:
+                - /url: /livelist?channel_id=0&channel_type=web_live_list
+                - img [ref=e84]
+                - generic [ref=e86]: 直播
+            - listitem [ref=e87] [cursor=pointer]:
+              - link "发布" [ref=e88]:
+                - /url: https://creator.xiaohongshu.com/publish/publish?source=official
+                - img [ref=e89]
+                - generic [ref=e91]: 发布
+            - listitem [ref=e92] [cursor=pointer]:
+              - link "通知" [ref=e93]:
+                - /url: /notification
+                - img [ref=e95]
+                - generic [ref=e97]: 通知
+            - listitem [ref=e423] [cursor=pointer]:
+              - link "我" [active] [ref=e425]:
+                - /url: /user/profile/608286f10000000001009ad1
+                - img [ref=e429]
+                - generic [ref=e432]: 我
+          - generic [ref=e120]:
+            - paragraph [ref=e121]:
+              - link "沪ICP备13030189号" [ref=e122] [cursor=pointer]:
+                - /url: //beian.miit.gov.cn/
+              - text: "|"
+              - link "营业执照" [ref=e123] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+              - text: "|"
+              - link "2024沪公网安备31010102002533号" [ref=e124] [cursor=pointer]:
+                - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+              - text: "|"
+              - link "增值电信业务经营许可证：沪B2-20150021" [ref=e125] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+              - text: "|"
+              - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e126] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+              - text: "|"
+              - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e127] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+              - text: "|"
+              - link "违法不良信息举报电话：4006676810" [ref=e128] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "上海市互联网举报中心" [ref=e129] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "网上有害信息举报专区" [ref=e130] [cursor=pointer]:
+                - /url: //www.12377.cn
+              - text: "|"
+              - link "自营经营者信息" [ref=e131] [cursor=pointer]:
+                - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+              - text: "|"
+              - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e132] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+              - text: "|"
+              - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e133] [cursor=pointer]:
+                - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: © 2014-2026
+              - paragraph [ref=e136]: 行吟信息科技（上海）有限公司
+              - paragraph [ref=e137]: 地址：上海市黄浦区马当路388号C座
+              - paragraph [ref=e138]: 电话：9501-3888
+        - generic [ref=e140]:
+          - generic [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+            - text: 更多
+          - generic [ref=e144]:
+            - paragraph [ref=e145]:
+              - link "沪ICP备13030189号" [ref=e146] [cursor=pointer]:
+                - /url: //beian.miit.gov.cn/
+              - text: "|"
+              - link "营业执照" [ref=e147] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf
+              - text: "|"
+              - link "2024沪公网安备31010102002533号" [ref=e148] [cursor=pointer]:
+                - /url: //www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533
+              - text: "|"
+              - link "增值电信业务经营许可证：沪B2-20150021" [ref=e149] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe
+              - text: "|"
+              - link "医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号" [ref=e150] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf
+              - text: "|"
+              - link "互联网药品信息服务资格证书：(沪)-经营性-2023-0144" [ref=e151] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf
+              - text: "|"
+              - link "违法不良信息举报电话：4006676810" [ref=e152] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "上海市互联网举报中心" [ref=e153] [cursor=pointer]:
+                - /url: //www.shjbzx.cn
+              - text: "|"
+              - link "网上有害信息举报专区" [ref=e154] [cursor=pointer]:
+                - /url: //www.12377.cn
+              - text: "|"
+              - link "自营经营者信息" [ref=e155] [cursor=pointer]:
+                - /url: //dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/自营经营者信息公示.pdf
+              - text: "|"
+              - link "网络文化经营许可证：沪网文(2024)1344-086号" [ref=e156] [cursor=pointer]:
+                - /url: //fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf
+              - text: "|"
+              - link "个性化推荐算法 网信算备310101216601302230019号" [ref=e157] [cursor=pointer]:
+                - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: © 2014-2026
+              - paragraph [ref=e160]: 行吟信息科技（上海）有限公司
+              - paragraph [ref=e161]: 地址：上海市黄浦区马当路388号C座
+              - paragraph [ref=e162]: 电话：9501-3888
+      - generic [ref=e641]:
+        - generic [ref=e643]:
+          - img [ref=e646]
+          - generic [ref=e648]:
+            - generic [ref=e650]:
+              - generic [ref=e652]: 星空
+              - generic [ref=e654]: 小红书号：4284029888
+            - generic [ref=e655]: 还没有简介
+            - img [ref=e659]
+            - generic [ref=e662]:
+              - generic [ref=e663]:
+                - generic [ref=e664]: "94"
+                - generic [ref=e665]: 关注
+              - generic [ref=e666]:
+                - generic [ref=e667]: "13"
+                - generic [ref=e668]: 粉丝
+              - generic [ref=e669]:
+                - generic [ref=e670]: "1"
+                - generic [ref=e671]: 获赞与收藏
+        - generic [ref=e674]:
+          - generic [ref=e676] [cursor=pointer]: 笔记
+          - generic [ref=e677] [cursor=pointer]:
+            - img [ref=e680]
+            - generic [ref=e682]: 收藏
+          - generic [ref=e684] [cursor=pointer]: 点赞
+        - generic [ref=e686]:
+          - generic [ref=e688]:
+            - generic [ref=e690]:
+              - link "仅自己可见" [ref=e691] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/67716e17000000000b00dd00?xsec_token=ABXmZczEkXJgokrgSA65MyMlkohmoS5MgmO0mT-kXcN3U=&xsec_source=pc_user
+                - img [ref=e692]
+                - generic [ref=e694]:
+                  - img [ref=e695]
+                  - text: 仅自己可见
+              - generic [ref=e697]:
+                - link "术后手臂上举受限的康复练习" [ref=e698] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/67716e17000000000b00dd00?xsec_token=ABXmZczEkXJgokrgSA65MyMlkohmoS5MgmO0mT-kXcN3U=&xsec_source=pc_user
+                - generic [ref=e699]:
+                  - link "星空" [ref=e700] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e702]
+                    - generic [ref=e703]: 星空
+                  - generic [ref=e704] [cursor=pointer]:
+                    - img [ref=e706]
+                    - generic [ref=e708]: 赞
+            - generic [ref=e710]:
+              - link "仅自己可见" [ref=e711] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/6746f319000000000202cf4f?xsec_token=AB-78FDti8ZVmdwCb_QXri7GKj55jgNi38GvUER4Ad7Us=&xsec_source=pc_user
+                - img [ref=e712]
+                - generic [ref=e714]:
+                  - img [ref=e715]
+                  - text: 仅自己可见
+              - generic [ref=e717]:
+                - link "微创瓣膜修复手术重点知识" [ref=e718] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/6746f319000000000202cf4f?xsec_token=AB-78FDti8ZVmdwCb_QXri7GKj55jgNi38GvUER4Ad7Us=&xsec_source=pc_user
+                - generic [ref=e719]:
+                  - link "星空" [ref=e720] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e722]
+                    - generic [ref=e723]: 星空
+                  - generic [ref=e724] [cursor=pointer]:
+                    - img [ref=e726]
+                    - generic [ref=e728]: 赞
+            - generic [ref=e730]:
+              - link "仅自己可见" [ref=e731] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/6745d06500000000060143b7?xsec_token=AB8tUoQurx3crNmmLvoIz5VzqYl_YEqU4vPJx4uMTvQh8=&xsec_source=pc_user
+                - img [ref=e732]
+                - generic [ref=e734]:
+                  - img [ref=e735]
+                  - text: 仅自己可见
+              - generic [ref=e737]:
+                - link "开始密集与各大医院的专家交流，包括：" [ref=e738] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/6745d06500000000060143b7?xsec_token=AB8tUoQurx3crNmmLvoIz5VzqYl_YEqU4vPJx4uMTvQh8=&xsec_source=pc_user
+                - generic [ref=e739]:
+                  - link "星空" [ref=e740] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e742]
+                    - generic [ref=e743]: 星空
+                  - generic [ref=e744] [cursor=pointer]:
+                    - img [ref=e746]
+                    - generic [ref=e748]: 赞
+            - generic [ref=e750]:
+              - link "仅自己可见" [ref=e751] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/67453c2800000000020392c2?xsec_token=AB8tUoQurx3crNmmLvoIz5V9iJd8DraaFmt7VRl393yYI=&xsec_source=pc_user
+                - img [ref=e752]
+                - generic [ref=e754]:
+                  - img [ref=e755]
+                  - text: 仅自己可见
+              - generic [ref=e757]:
+                - link "解决崔主任门诊预约不到的问题" [ref=e758] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/67453c2800000000020392c2?xsec_token=AB8tUoQurx3crNmmLvoIz5V9iJd8DraaFmt7VRl393yYI=&xsec_source=pc_user
+                - generic [ref=e759]:
+                  - link "星空" [ref=e760] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e762]
+                    - generic [ref=e763]: 星空
+                  - generic [ref=e764] [cursor=pointer]:
+                    - img [ref=e766]
+                    - generic [ref=e768]: 赞
+            - generic [ref=e770]:
+              - link "仅自己可见" [ref=e771] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/674538e2000000000203ad6d?xsec_token=AB8tUoQurx3crNmmLvoIz5V49GmVHUiUsMYaRKBb3POIg=&xsec_source=pc_user
+                - img [ref=e772]
+                - generic [ref=e774]:
+                  - img [ref=e775]
+                  - text: 仅自己可见
+              - generic [ref=e777]:
+                - link "经过去安贞再次拍心脏彩超，说明瓣膜修复是可行的，不过安贞只是说试试。另外，北京这" [ref=e778] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/674538e2000000000203ad6d?xsec_token=AB8tUoQurx3crNmmLvoIz5V49GmVHUiUsMYaRKBb3POIg=&xsec_source=pc_user
+                - generic [ref=e779]:
+                  - link "星空" [ref=e780] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e782]
+                    - generic [ref=e783]: 星空
+                  - generic [ref=e784] [cursor=pointer]:
+                    - img [ref=e786]
+                    - generic [ref=e788]: 赞
+            - generic [ref=e790]:
+              - link "仅自己可见" [ref=e791] [cursor=pointer]:
+                - /url: /user/profile/608286f10000000001009ad1/67441e89000000000203be65?xsec_token=AB32kS0YWmT-SrY_8bUPJssMCzBTFhs7NKBlfQaquqnUI=&xsec_source=pc_user
+                - img [ref=e792]
+                - generic [ref=e794]:
+                  - img [ref=e795]
+                  - text: 仅自己可见
+              - generic [ref=e797]:
+                - link "我的心脏康复计划" [ref=e798] [cursor=pointer]:
+                  - /url: /user/profile/608286f10000000001009ad1/67441e89000000000203be65?xsec_token=AB32kS0YWmT-SrY_8bUPJssMCzBTFhs7NKBlfQaquqnUI=&xsec_source=pc_user
+                - generic [ref=e799]:
+                  - link "星空" [ref=e800] [cursor=pointer]:
+                    - /url: /user/profile/608286f10000000001009ad1?channel_type=web_profile_page&parent_page_channel_type=web_user_board&xsec_token=&xsec_source=pc_note
+                    - img [ref=e802]
+                    - generic [ref=e803]: 星空
+                  - generic [ref=e804] [cursor=pointer]:
+                    - img [ref=e806]
+                    - generic [ref=e808]: 赞
+          - generic [ref=e810]:
+            - generic [ref=e812]:
+              - generic [ref=e814] [cursor=pointer]: 笔记・4213
+              - generic [ref=e816] [cursor=pointer]: 专辑・64
+              - generic [ref=e818] [cursor=pointer]: 文件・0
+            - generic [ref=e821]:
+              - img [ref=e822]
+              - generic [ref=e824]: 你还没有收藏任何内容哦
+          - generic [ref=e829]:
+            - img [ref=e830]
+            - generic [ref=e832]: 你还没有赞过任何内容哦
+        - generic [ref=e834]:
+          - generic:
+            - generic:
+              - img
+  - generic [ref=e398]:
+    - generic [ref=e399]:
+      - button [ref=e402] [cursor=pointer]:
+        - img [ref=e404]
+      - generic [ref=e406]: 活动
+      - generic [ref=e407]:
+        - button [ref=e409] [cursor=pointer]:
+          - img [ref=e411]
+        - button [ref=e413] [cursor=pointer]:
+          - img [ref=e415]
+        - button [ref=e417] [cursor=pointer]:
+          - img [ref=e419]
+    - iframe [ref=e421]:
+      
