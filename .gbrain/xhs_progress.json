@@ -2743,25 +2743,58 @@
       "index": 105,
       "title": "面试官问：单 Agent 已经不够用了？为什么",
       "author": "大模型算法岗秋招指南11",
-      "note_id": "6980bfca000000002103271a",
-      "status": "pending",
-      "phases": {}
+      "note_id": "69f4765f0000000038020c12",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f4765f0000000038020c12.md",
+          "slides_processed": 7
+        }
+      }
     },
     {
       "index": 106,
       "title": "面试官问：为什么很多人做不出企业级 Agent",
       "author": "大模型算法岗秋招指南2",
-      "note_id": "69830476000000002200aa1c",
-      "status": "pending",
-      "phases": {}
+      "note_id": "69f48ef6000000002301fa3b",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 7,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f48ef6000000002301fa3b.md",
+          "slides_processed": 7
+        }
+      }
     },
     {
       "index": 107,
       "title": "面试官：Agent中的意图识别你会怎么做？",
       "author": "小夏聊AGI94",
-      "note_id": "6989c29f000000001a032d7b",
-      "status": "pending",
-      "phases": {}
+      "note_id": "69f0465c0000000037035c0f",
+      "status": "completed",
+      "phases": {
+        "phase2_screenshot": {
+          "status": "completed",
+          "total_slides": 8,
+          "screenshot_dir": ".playwright-cli"
+        },
+        "phase3_ocr": {
+          "status": "completed",
+          "ocr_text_file": "sources/xhs/xhs-69f0465c0000000037035c0f.md",
+          "slides_processed": 8
+        }
+      }
     }
   ],
   "pending_notes": [
@@ -3016,7 +3049,7 @@
       "status": "pending"
     }
   ],
-  "last_updated": "2026-05-04 00:50:49",
+  "last_updated": "2026-05-04 11:38:44",
   "chrome_pid": null,
   "cdp_port": 9223
 }
