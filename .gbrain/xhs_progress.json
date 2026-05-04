@@ -1794,10 +1794,10 @@
       "note_id": "698c52a7000000000b0081d4",
       "title": "PixVerse R1大更新！能玩还能改剧情？",
       "author": "瑞恩聊AI171",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase3_ocr": {
           "status": "completed",
@@ -1805,13 +1805,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1820,7 +1820,7 @@
       "note_id": "69a222d9000000001a0212e5",
       "title": "写Prompt的时代过去了",
       "author": "Ne0在硅谷3744",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -1833,13 +1833,13 @@
           "slides_processed": 0
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1848,7 +1848,7 @@
       "note_id": "6983e7a2000000000b011966",
       "title": "除了Langsmith，我们还有langfuse",
       "author": "五非是能工智人16",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -1861,13 +1861,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1876,7 +1876,7 @@
       "note_id": "69985fe4000000000c037f18",
       "title": "langfuse可监控大模型的输入、输出、latency（响应时间）、token",
       "author": "HHH（开发学习版）17",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -1889,13 +1889,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1904,7 +1904,7 @@
       "note_id": "68be2b0d000000001d013a8e",
       "title": "LLM追踪：开源方案告别锁定 #LangCha",
       "author": "北三陆的猫2",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -1917,13 +1917,13 @@
           "slides_processed": 17
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1932,7 +1932,7 @@
       "note_id": "69463a53000000001e014df9",
       "title": "每天半小时 AI 知识｜LangFusePrompt",
       "author": "AI酋长Andy78",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
           "status": "completed",
@@ -1945,13 +1945,13 @@
           "slides_processed": 17
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1960,10 +1960,10 @@
       "note_id": "68b3b788000000001d025d7b",
       "title": "生产级dify",
       "author": "雷哥AI138",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase3_ocr": {
           "status": "completed",
@@ -1971,13 +1971,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -1986,10 +1986,10 @@
       "note_id": "699a8e8b000000000b00a3b8",
       "title": "别再微调了，99%的项目不适合做微调",
       "author": "我是Luka7077",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase3_ocr": {
           "status": "completed",
@@ -1997,13 +1997,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
@@ -2012,10 +2012,10 @@
       "note_id": "69a7bfeb000000001a035034",
       "title": "养虾人的福音！Agent可零改造接入RL训练~",
       "author": "刘聪NLP625",
-      "status": "processing",
+      "status": "completed",
       "phases": {
         "phase2_screenshot": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase3_ocr": {
           "status": "completed",
@@ -2023,13 +2023,13 @@
           "slides_processed": 1
         },
         "phase4_vision": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase5_import": {
-          "status": "pending"
+          "status": "completed"
         },
         "phase6_verify": {
-          "status": "pending"
+          "status": "completed"
         }
       }
     },
